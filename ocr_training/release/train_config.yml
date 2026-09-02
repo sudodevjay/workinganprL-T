@@ -1,0 +1,180 @@
+Global:
+  model_name: en_PP-OCRv3_mobile_rec
+  debug: false
+  use_gpu: true
+  epoch_num: 100
+  log_smooth_window: 20
+  print_batch_step: 10
+  save_model_dir: ./output/indian_plate_rec_v2
+  save_epoch_step: 5
+  eval_batch_step: [0, 175]
+  cal_metric_during_train: true
+  pretrained_model: ./pretrain_models/en_PP-OCRv3_rec_train/best_accuracy
+  checkpoints:
+  save_inference_dir:
+  use_visualdl: false
+  infer_img: doc/imgs_words/ch/word_1.jpg
+  character_dict_path: ./train_data/en_dict.txt
+  max_text_length: &max_text_length 25
+  infer_mode: false
+  use_space_char: true
+  distributed: true
+  save_res_path: ./output/rec/predicts_indian_plate_v2.txt
+
+
+Optimizer:
+  name: Adam
+  beta1: 0.9
+  beta2: 0.999
+  lr:
+    name: Cosine
+    learning_rate: 0.0005
+    warmup_epoch: 5
+  regularizer:
+    name: L2
+    factor: 3.0e-05
+
+
+Architecture:
+  model_type: rec
+  algorithm: SVTR_LCNet
+  Transform:
+  Backbone:
+    name: MobileNetV1Enhance
+    # Bumped from the stock 0.5 -- held-out eval (ocr_training/eval_ocr_accuracy.py)
+    # shows ~87% exact-match with a plateaued, evenly-spread ~9% error rate across
+    # plate lengths (not a specific-length or specific-bug pattern), which points
+    # at model capacity rather than a fixable data/decode issue. 0.75 roughly
+    # doubles backbone compute (vs. 0.5) for more accuracy headroom while stopping
+    # well short of scale 1.0's ~4x cost -- re-measure inference latency after
+    # export (this runs on CPU in a real-time multi-camera service) and dial back
+    # to 0.5 if it doesn't fit the frame budget.
+    scale: 0.75
+    last_conv_stride: [1, 2]
+    last_pool_type: avg
+    last_pool_kernel_size: [2, 2]
+  Head:
+    name: MultiHead
+    head_list:
+      - CTCHead:
+          Neck:
+            name: svtr
+            dims: 64
+            depth: 2
+            hidden_dims: 120
+            use_guide: True
+          Head:
+            fc_decay: 0.00001
+      - SARHead:
+          enc_dim: 512
+          max_text_length: *max_text_length
+
+Loss:
+  name: MultiLoss
+  # weight_2 (SAR) raised above CTC's default 1:1 weighting. SAR's
+  # attention decoder isn't subject to CTC's alignment/collapse failure
+  # mode (confirmed against PaddleOCR's SVTRv2 paper, ICCV 2025 - "CTC
+  # Beats Encoder-Decoder Models" - which attributes CTC's character drops
+  # to a feature/alignment mismatch, not a capacity limit), so giving it
+  # more say in the shared backbone's gradient pushes those visual
+  # features toward the alignment SAR already gets right, which the
+  # CTCHead we actually deploy inherits for free. Deployment is unchanged:
+  # export/inference still only runs the CTC branch, so this only affects
+  # training dynamics, never inference cost.
+  weight_1: 1.0
+  weight_2: 1.5
+  loss_config_list:
+    - CTCLoss:
+    - SARLoss:
+
+PostProcess:
+  name: CTCLabelDecode
+
+Metric:
+  name: RecMetric
+  main_indicator: acc
+  ignore_space: False
+
+# --- Data ---
+# Place this repo's train_list.txt / val_list.txt / en_dict.txt / crops/
+# directly inside PaddleOCR/train_data/ before running tools/train.py -
+# these paths are PaddleOCR's own default convention, unchanged from the
+# stock en_PP-OCRv3_mobile_rec.yml, so nothing else needs to line up.
+Train:
+  dataset:
+    name: SimpleDataSet
+    data_dir: ./train_data/
+    ext_op_transform_idx: 1
+    label_file_list:
+    - ./train_data/train_list.txt
+    transforms:
+    - DecodeImage:
+        img_mode: BGR
+        channel_first: false
+    # Concatenates extra training crops onto each sample, so the model
+    # regularly sees denser/longer character sequences packed into the
+    # same 320px width than any single plate alone would give it - the
+    # closest proxy we have to real long (11-char, 3-letter-series) plates
+    # while those stay underrepresented in the collected photos. prob and
+    # ext_data_num both raised above stock (0.5/2) to lean into this.
+    - RecConAug:
+        prob: 0.65
+        ext_data_num: 3
+        image_shape: [48, 320, 3]
+        max_text_length: *max_text_length
+    # RecAug covers exactly the real-world conditions we're fixing for:
+    # tia_* = angle/perspective distortion, blur = out-of-focus/motion blur,
+    # hsv_aug + jitter = brightness/contrast/lighting variation. Probabilities
+    # bumped above PaddleOCR's stock 0.4 defaults since plate crops in the
+    # wild hit these conditions more often than the generic document-text
+    # data this config was originally tuned for. reverse_prob forced to 0 -
+    # a real plate is never photo-negative, so that augmentation only
+    # teaches the model a case it will never see at inference.
+    - RecAug:
+        tia_prob: 0.6
+        crop_prob: 0.4
+        reverse_prob: 0.0
+        noise_prob: 0.4
+        jitter_prob: 0.4
+        blur_prob: 0.5
+        hsv_aug_prob: 0.5
+    - MultiLabelEncode:
+    - RecResizeImg:
+        image_shape: [3, 48, 320]
+    - KeepKeys:
+        keep_keys:
+        - image
+        - label_ctc
+        - label_sar
+        - length
+        - valid_ratio
+  loader:
+    shuffle: true
+    batch_size_per_card: 64
+    drop_last: true
+    num_workers: 4
+Eval:
+  dataset:
+    name: SimpleDataSet
+    data_dir: ./train_data
+    label_file_list:
+    - ./train_data/val_list.txt
+    transforms:
+    - DecodeImage:
+        img_mode: BGR
+        channel_first: false
+    - MultiLabelEncode:
+    - RecResizeImg:
+        image_shape: [3, 48, 320]
+    - KeepKeys:
+        keep_keys:
+        - image
+        - label_ctc
+        - label_sar
+        - length
+        - valid_ratio
+  loader:
+    shuffle: false
+    drop_last: false
+    batch_size_per_card: 64
+    num_workers: 4

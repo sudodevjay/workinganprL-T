@@ -1,0 +1,20 @@
+train: D:\bhikaji\bhikajianpr\vehicle-plate-color.v1i.yolo26\train\images
+val: D:\bhikaji\bhikajianpr\vehicle-plate-color.v1i.yolo26\valid\images
+test: D:\bhikaji\bhikajianpr\vehicle-plate-color.v1i.yolo26\test\images
+nc: 9
+names:
+- '0'
+- '1'
+- car_plate
+- object
+- placa carro
+- placa carro mercosul
+- placa moto
+- placa moto mercosul
+- plate
+roboflow:
+  workspace: satyendra
+  project: vehicle-plate-color-bhinu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/satyendra/vehicle-plate-color-bhinu/dataset/1

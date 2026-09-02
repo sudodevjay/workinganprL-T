@@ -1,0 +1,13 @@
+{
+  "total_tracks_detected": 59,
+  "read_nonempty_text": 54,
+  "missed_no_text": 5,
+  "read_rate_pct": 91.5,
+  "valid_format_count": 53,
+  "valid_format_rate_among_read_pct": 98.1,
+  "accepted_would_post_count": 53,
+  "average_confidence_among_read": 0.958,
+  "vehicle_type_known_count": 59,
+  "vehicle_color_known_count": 59,
+  "plate_color_known_count": 48
+}

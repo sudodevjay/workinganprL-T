@@ -1,0 +1,1046 @@
+[
+  {
+    "source": "vehicle_20260410-135025_1.jpg",
+    "plate_text": "RJ27C8544",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9742,
+    "vehicle_type": "van",
+    "vehicle_color": "tan",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260410-141209_0.jpg",
+    "plate_text": "HR17GP63",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7116,
+    "vehicle_type": "van",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260410-141452_3.jpg",
+    "plate_text": "GJ09BJ0632",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8783,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260410-141746_3.jpg",
+    "plate_text": "RJ27TA6826",
+    "plate_text_valid": true,
+    "plate_confidence": 0.971,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260410-143811_0.jpg",
+    "plate_text": "RJ12CB5853",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9996,
+    "vehicle_type": "van",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260410-151920_0.jpg",
+    "plate_text": "GJ03MB8103",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9884,
+    "vehicle_type": "sedan",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260410-164152_0.jpg",
+    "plate_text": "RJ27CB7049",
+    "plate_text_valid": true,
+    "plate_confidence": 0.968,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260411-025620_0.jpg",
+    "plate_text": "RJ30G8",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7633,
+    "vehicle_type": "van",
+    "vehicle_color": "green",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-090126_4.jpg",
+    "plate_text": "GJ03PJ993",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9519,
+    "vehicle_type": "pickup",
+    "vehicle_color": "tan",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-092742_4.jpg",
+    "plate_text": "RJ27CH1652",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9999,
+    "vehicle_type": "sedan",
+    "vehicle_color": "beige",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-111209_0.jpg",
+    "plate_text": "RJ21CC3867",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9641,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-111921_2.jpg",
+    "plate_text": "HR37E6721",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9935,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-113639_0.jpg",
+    "plate_text": "GJ08CS5593",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9939,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-113700_0.jpg",
+    "plate_text": "RJ38UA1505",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9552,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-114804_0.jpg",
+    "plate_text": "GJ08AY0933",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9939,
+    "vehicle_type": "pickup",
+    "vehicle_color": "blue",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-114804_4.jpg",
+    "plate_text": "GJ08AY0933",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9555,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-114838_0.jpg",
+    "plate_text": "GJ19AM9149",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9822,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-114838_3.jpg",
+    "plate_text": "GJ9AM9149",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9678,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-115308_3.jpg",
+    "plate_text": "GJ36AP0713",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9895,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260411-120556_0.jpg",
+    "plate_text": "RJ03CC0903",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9933,
+    "vehicle_type": "pickup",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-121151_3.jpg",
+    "plate_text": "RJ38U1060",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9801,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-121235_3.jpg",
+    "plate_text": "MH47AB613",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9679,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-125024_4.jpg",
+    "plate_text": "HRJ277747",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8509,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-131731_2.jpg",
+    "plate_text": "HRJ27A5934",
+    "plate_text_valid": true,
+    "plate_confidence": 0.926,
+    "vehicle_type": "sedan",
+    "vehicle_color": "orange",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-131837_2.jpg",
+    "plate_text": "GJ01WN4580",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9974,
+    "vehicle_type": "coupe",
+    "vehicle_color": "tan",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-132858_4.jpg",
+    "plate_text": "HRJ27T0042",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9407,
+    "vehicle_type": "pickup",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-133724_4.jpg",
+    "plate_text": "GJ05RG0721",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9998,
+    "vehicle_type": "van",
+    "vehicle_color": "tan",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-141312_0.jpg",
+    "plate_text": "RJ27UC555",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9455,
+    "vehicle_type": "sedan",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-141312_4.jpg",
+    "plate_text": "RJ27UC55",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9855,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-141409_0.jpg",
+    "plate_text": "RJ30UA1024",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9534,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260411-143233_0.jpg",
+    "plate_text": "RJ27CF5412",
+    "plate_text_valid": true,
+    "plate_confidence": 0.984,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-143410_3.jpg",
+    "plate_text": "GJ24AU7848",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9951,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-144144_0.jpg",
+    "plate_text": "RJ06CF0363",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9865,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260411-144150_0.jpg",
+    "plate_text": "DL9CAQ3395",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9941,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-145846_0.jpg",
+    "plate_text": "RJ27TA7588",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9851,
+    "vehicle_type": "sedan",
+    "vehicle_color": "brown",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260411-160156_4.jpg",
+    "plate_text": "GJ07AG5731",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9989,
+    "vehicle_type": "van",
+    "vehicle_color": "grey",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-165624_0.jpg",
+    "plate_text": "GJ01RG2649",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9953,
+    "vehicle_type": "pickup",
+    "vehicle_color": "tan",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260411-175015_3.jpg",
+    "plate_text": "RJ27TBZ067",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9102,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260411-214326_0.jpg",
+    "plate_text": "GJ21CM3249",
+    "plate_text_valid": true,
+    "plate_confidence": 0.999,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-050400_4.jpg",
+    "plate_text": "DL8BA3114",
+    "plate_text_valid": true,
+    "plate_confidence": 0.53,
+    "vehicle_type": "pickup",
+    "vehicle_color": "green",
+    "plate_color": "Red"
+  },
+  {
+    "source": "vehicle_20260412-072841_4.jpg",
+    "plate_text": "MH01B3040",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9677,
+    "vehicle_type": "sedan",
+    "vehicle_color": "beige",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-073539_4.jpg",
+    "plate_text": "RJ27TA3945",
+    "plate_text_valid": true,
+    "plate_confidence": 0.943,
+    "vehicle_type": "sedan",
+    "vehicle_color": "beige",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-094724_4.jpg",
+    "plate_text": "RJ30CB556",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9293,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-120852_4.jpg",
+    "plate_text": "GJ27EG0635",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9568,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-121550_4.jpg",
+    "plate_text": "GJ27TG0415",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9689,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-121609_4.jpg",
+    "plate_text": "RJ27CJ3545",
+    "plate_text_valid": true,
+    "plate_confidence": 0.995,
+    "vehicle_type": "coupe",
+    "vehicle_color": "grey",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-122449_4.jpg",
+    "plate_text": "RJ06CC3274",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9728,
+    "vehicle_type": "sedan",
+    "vehicle_color": "blue",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-130959_4.jpg",
+    "plate_text": "GJ06BK971",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9081,
+    "vehicle_type": "van",
+    "vehicle_color": "orange",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-131749_4.jpg",
+    "plate_text": "RJ07UB064",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9515,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-132223_0.jpg",
+    "plate_text": "RJ27CD0457",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8994,
+    "vehicle_type": "pickup",
+    "vehicle_color": "blue",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-132440_4.jpg",
+    "plate_text": "GJ01RF5958",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9658,
+    "vehicle_type": "sedan",
+    "vehicle_color": "grey",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-133446_0.jpg",
+    "plate_text": "RJ27G0631",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9158,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-134232_0.jpg",
+    "plate_text": "RJ27CC8996",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9919,
+    "vehicle_type": "van",
+    "vehicle_color": "blue",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-135914_4.jpg",
+    "plate_text": "RJ1AT0479",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9207,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-140319_2.jpg",
+    "plate_text": "GJ0DJ0218",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9769,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-141619_2.jpg",
+    "plate_text": "GJ01MT0933",
+    "plate_text_valid": true,
+    "plate_confidence": 0.988,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-141655_0.jpg",
+    "plate_text": "MH04FZ8103",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9783,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-143336_4.jpg",
+    "plate_text": "RJ27CN5410",
+    "plate_text_valid": true,
+    "plate_confidence": 0.989,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-143620_0.jpg",
+    "plate_text": "RJ27DD0886",
+    "plate_text_valid": true,
+    "plate_confidence": 0.89,
+    "vehicle_type": "pickup",
+    "vehicle_color": "grey",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-143751_1.jpg",
+    "plate_text": "RJ27CJ2855",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9955,
+    "vehicle_type": "van",
+    "vehicle_color": "brown",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-143939_0.jpg",
+    "plate_text": "RJ45CV2355",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9834,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-145353_2.jpg",
+    "plate_text": "RJ08CA6292",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9928,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-145935_2.jpg",
+    "plate_text": "MP09BJ9152",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9972,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-150358_0.jpg",
+    "plate_text": "RJ40CA885",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9973,
+    "vehicle_type": "pickup",
+    "vehicle_color": "blue",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-152821_0.jpg",
+    "plate_text": "RJ27CQ0780",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9328,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-152941_0.jpg",
+    "plate_text": "GJ80C7695",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9637,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-152941_3.jpg",
+    "plate_text": "GJ08CC7695",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9227,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-153745_0.jpg",
+    "plate_text": "GJ12EE7605",
+    "plate_text_valid": true,
+    "plate_confidence": 0.967,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-153852_4.jpg",
+    "plate_text": "RJ30DB144",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9557,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-154956_4.jpg",
+    "plate_text": "",
+    "plate_text_valid": false,
+    "plate_confidence": 0.0,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-160656_4.jpg",
+    "plate_text": "RJ27CM913",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7619,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-163110_3.jpg",
+    "plate_text": "RJ22CB0820",
+    "plate_text_valid": true,
+    "plate_confidence": 0.966,
+    "vehicle_type": "van",
+    "vehicle_color": "tan",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-163549_0.jpg",
+    "plate_text": "HR03CMB7",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7319,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-164111_0.jpg",
+    "plate_text": "HR14A7291",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8649,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-165501_1.jpg",
+    "plate_text": "RJ27CK5715",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9602,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-165935_3.jpg",
+    "plate_text": "RJ27CP9842",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9828,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-170505_4.jpg",
+    "plate_text": "",
+    "plate_text_valid": false,
+    "plate_confidence": 0.0,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-170913_4.jpg",
+    "plate_text": "RJ27TB0129",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9302,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-171610_4.jpg",
+    "plate_text": "RJ0C4101",
+    "plate_text_valid": true,
+    "plate_confidence": 0.5562,
+    "vehicle_type": "van",
+    "vehicle_color": "tan",
+    "plate_color": "Blue"
+  },
+  {
+    "source": "vehicle_20260412-173014_0.jpg",
+    "plate_text": "GJ01WJ7149",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9835,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-174011_0.jpg",
+    "plate_text": "RJ27CC375",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9354,
+    "vehicle_type": "sedan",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-174417_4.jpg",
+    "plate_text": "RJ27CD2154",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9051,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260412-175143_4.jpg",
+    "plate_text": "RJ23CF9857",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9908,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-182657_3.jpg",
+    "plate_text": "RJ27TA9358",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9846,
+    "vehicle_type": "coupe",
+    "vehicle_color": "tan",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-184820_0.jpg",
+    "plate_text": "RJ27CC5965",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9983,
+    "vehicle_type": "sedan",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-184820_4.jpg",
+    "plate_text": "RJ27CC5965",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9976,
+    "vehicle_type": "sedan",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-185452_0.jpg",
+    "plate_text": "",
+    "plate_text_valid": false,
+    "plate_confidence": 0.0,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-190035_4.jpg",
+    "plate_text": "RJ2CA7208",
+    "plate_text_valid": true,
+    "plate_confidence": 0.986,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-192521_0.jpg",
+    "plate_text": "RJ27CG8412",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9915,
+    "vehicle_type": "coupe",
+    "vehicle_color": "grey",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-192538_0.jpg",
+    "plate_text": "RJ27UB1495",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9788,
+    "vehicle_type": "van",
+    "vehicle_color": "silver",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-193133_0.jpg",
+    "plate_text": "RJ27CL6531",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9938,
+    "vehicle_type": "pickup",
+    "vehicle_color": "black",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260412-201717_4.jpg",
+    "plate_text": "GJ07AG8397",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9987,
+    "vehicle_type": "coupe",
+    "vehicle_color": "brown",
+    "plate_color": "Red"
+  },
+  {
+    "source": "vehicle_20260412-201933_0.jpg",
+    "plate_text": "RJ27CN5217",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9832,
+    "vehicle_type": "coupe",
+    "vehicle_color": "grey",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-214136_4.jpg",
+    "plate_text": "RJ27C8853",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9998,
+    "vehicle_type": "coupe",
+    "vehicle_color": "brown",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260412-222347_1.jpg",
+    "plate_text": "RJ06F66",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7958,
+    "vehicle_type": "pickup",
+    "vehicle_color": "orange",
+    "plate_color": "Red"
+  },
+  {
+    "source": "vehicle_20260415-002341_4.jpg",
+    "plate_text": "MP13CE0943",
+    "plate_text_valid": true,
+    "plate_confidence": 0.998,
+    "vehicle_type": "van",
+    "vehicle_color": "green",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260415-013021_2.jpg",
+    "plate_text": "RJ30CB5991",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9885,
+    "vehicle_type": "van",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-065045_0.jpg",
+    "plate_text": "RJ27CG7056",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9883,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260415-075939_1.jpg",
+    "plate_text": "RJ27CC6470",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9997,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-085522_4.jpg",
+    "plate_text": "RJ30TA2151",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9956,
+    "vehicle_type": "sedan",
+    "vehicle_color": "beige",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-085524_0.jpg",
+    "plate_text": "RJ3TA215",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8994,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-095008_0.jpg",
+    "plate_text": "RJ27T2534",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9779,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-100235_4.jpg",
+    "plate_text": "RJ23CE2800",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9954,
+    "vehicle_type": "sedan",
+    "vehicle_color": "beige",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-102303_4.jpg",
+    "plate_text": "RJ27CE0594",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9994,
+    "vehicle_type": "sedan",
+    "vehicle_color": "grey",
+    "plate_color": "White"
+  },
+  {
+    "source": "vehicle_20260415-125538_0.jpg",
+    "plate_text": "GJ03ME8588",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9999,
+    "vehicle_type": "Unknown",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-125734_0.jpg",
+    "plate_text": "GJ32K6720",
+    "plate_text_valid": true,
+    "plate_confidence": 0.8853,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-131032_3.jpg",
+    "plate_text": "UP70FE1249",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9948,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-131035_2.jpg",
+    "plate_text": "UP70FE1249",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9173,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-131035_3.jpg",
+    "plate_text": "UP70FEI2439",
+    "plate_text_valid": true,
+    "plate_confidence": 0.7829,
+    "vehicle_type": "van",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-133503_4.jpg",
+    "plate_text": "RJ3TA2417",
+    "plate_text_valid": true,
+    "plate_confidence": 0.972,
+    "vehicle_type": "pickup",
+    "vehicle_color": "tan",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-140819_4.jpg",
+    "plate_text": "RJ39CA2122",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9968,
+    "vehicle_type": "sedan",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-142209_0.jpg",
+    "plate_text": "MH02CZ5896",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9979,
+    "vehicle_type": "van",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-173641_0.jpg",
+    "plate_text": "RJ18CA7806",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9758,
+    "vehicle_type": "van",
+    "vehicle_color": "grey",
+    "plate_color": "Unknown"
+  },
+  {
+    "source": "vehicle_20260415-201844_4.jpg",
+    "plate_text": "RJ27CG4885",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9611,
+    "vehicle_type": "coupe",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260415-203104_4.jpg",
+    "plate_text": "RJ12CB2334",
+    "plate_text_valid": true,
+    "plate_confidence": 0.9885,
+    "vehicle_type": "pickup",
+    "vehicle_color": "white",
+    "plate_color": "Black"
+  },
+  {
+    "source": "vehicle_20260422-170809_2.jpg",
+    "plate_text": "HR2Z65",
+    "plate_text_valid": true,
+    "plate_confidence": 0.6983,
+    "vehicle_type": "pickup",
+    "vehicle_color": "brown",
+    "plate_color": "Black"
+  }
+]

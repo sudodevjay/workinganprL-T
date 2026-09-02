@@ -1,0 +1,254 @@
+filename	source	ground_truth	ocr	correct	category	cer	confidence	variant
+old_License (1308)_0.jpg	archive	TN07AR2336	TN07AR2336	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (506)_0.jpg	archive	MH01BB1124	MH01BB1124	True	correct	0.0	1.0	original:original:raw+sar
+old_License (918)_0.jpg	archive	UP14BP0510	UP14BP0510	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_13-07-14-449900_HR38AD1765__det.jpg	new	HR38AD1765	HR38AD1765	True	correct	0.0	1.0	original:center60:raw+sar
+new_cam02_15-06-42-846761_DL1ZO6848__det.jpg	new	DL1ZD6848	DL1ZD6848	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1548)_0.jpg	archive	MH05AS3073	MH05AS3073	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1890)_0.jpg	archive	WB06F6711	WB06F6711	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1322)_0.jpg	archive	DL2CAN7860	DL2CAN7860	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1362)_0.jpg	archive	DL3CAY5270	DL3CAY5270	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_13-44-45-223640_DL12D8494__det.jpg	new	DL1ZD8494	DL1ZD8494	True	correct	0.0	0.9999	original:center50:raw+sar
+old_License (182)_0.jpg	archive	MH43X7188	MH43X7188	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-100659__det.jpg	new	HR48E9780	HR48E9780	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260819-105659__det.jpg	new	HR55BB3722	HR55BB3722	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (391)_0.jpg	archive	MH09BB4445	MH09BB4445	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1777)_0.jpg	archive	GJ18AB2587	GJ18AB2587	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (57)_0.jpg	archive	MH27AR0665	MH27AR0665	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260819-111613__det.jpg	new	DL4CAZ3376	DL4CAZ3376	True	correct	0.0	1.0	original:trim25:raw+sar
+new_vehicle_20260820-103526__det.jpg	new	HR55AU5917	HR55AU5917	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (912)_0.jpg	archive	TN01AJ8334	TN01AJ8334	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260820-121129__det.jpg	new	PB34C9534	PB34C9534	True	correct	0.0	0.9999	original:trim18:raw+sar
+old_License (45)_0.jpg	archive	MH04FA6281	MH04FA6281	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_11-36-20-543875_26BH6624B__det.jpg	new	26BH6624E	26BH6624E	True	correct	0.0	0.9999	original:center50:raw+sar
+old_00000395_0.jpg	archive	UP14DH4701	UP14DH4701	True	correct	0.0	1.0	original:original:raw+sar
+old_00000395_1.jpg	archive	UP14DH4701	UP14DH4701	True	correct	0.0	0.9916	original:original:raw+sar
+old_License (1254)_0.jpg	archive	MH43X3230	MH43X3230	True	correct	0.0	1.0	original:original:raw+sar
+old_License (926)_0.jpg	archive	MH14DA0570	MH14DA0570	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1006)_0.jpg	archive	AP29AJ9099	AP29AJ9099	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_12-21-58-162260_UP82AW6586__det.jpg	new	UP82AW6586	UP82AW6586	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1198)_0.jpg	archive	WB06A4572	WB06A4572	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1682)_0.jpg	archive	DL3CBM6489	DL3CBM6489	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-115430__det.jpg	new	UP14GU4128	UP14GU4128	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (782)_0.jpg	archive	UP16AN0179	UP16AN0179	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000240_0.jpg	archive	MP09CY2208	MP09CY2208	True	correct	0.0	0.9997	original:original:raw+sar
+old_00000240_1.jpg	archive	MP09CY2208	MP09CY2208	True	correct	0.0	0.9991	original:original:raw+sar
+new_cam02_14-25-15-223531_JK02CK3724__det.jpg	new	JK02CK3724	JK02CK3724	True	correct	0.0	0.9999	original:center50:raw+sar
+new_vehicle_20260819-070604__det.jpg	new	HR55AS0594	HR55AS0594	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1175)_0.jpg	archive	PB10CV7547	PB10CV7547	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1169)_0.jpg	archive	AP25AA6300	AP25AA6300	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (868)_0.jpg	archive	MH06BC4786	MH06BC4786	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam02_12-03-54-389825_DL1CAC5372__det.jpg	new	DL1CAC5372	DL1CAC5372	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (322)_0.jpg	archive	MH02BZ0619	MH02BZ0619	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-121321__det.jpg	new	DL8CBL4171	DL8CBL4171	True	correct	0.0	0.9979	original:trim10:raw+sar
+old_License (1515)_0.jpg	archive	DL8CAW4610	DL8CAW4610	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1057)_0.jpg	archive	AP09BW4601	AP09BW4601	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1227)_0.jpg	archive	MH14DT9633	MH14DT9633	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (16)_0.jpg	archive	DL4CAD6474	DL4CAD6474	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (261)_0.jpg	archive	DL4CAN8167	DL4CAN8167	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1441)_0.jpg	archive	DL9CX6688	DL9CX6688	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260819-083037__det.jpg	new	DL12CV5224	DL12CV5224	True	correct	0.0	0.9992	original:trim18:raw+sar
+old_00000117_0.jpg	archive	MH20DV2366	MH20DV2366	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1068)_0.jpg	archive	TN20BF6121	TN20BF6121	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (435)_0.jpg	archive	MH04CT2694	MH04CT2694	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam02_15-48-39-279351_DL2CBE634__asis.jpg	new	DL2CBE6344	DL2CBE6344	True	correct	0.0	1.0	original:center60:raw+sar
+new_vehicle_20260819-092443__det.jpg	new	DL8EV7005	DL8EV7005	True	correct	0.0	0.9999	original:trim10:raw+sar
+old_License (1256)_0.jpg	archive	MH01AH4829	MH01AH4829	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1157)_0.jpg	archive	MH14CS9816	MH14CS9816	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1842)_0.jpg	archive	WB02Y7511	WB02Y7511	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1166)_0.jpg	archive	MH12FV5288	MH12FV5288	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_16-20-44-257039_DL7CN6770__det.jpg	new	DL7CW6770	DL7CW6770	True	correct	0.0	1.0	original:center50:raw+sar
+new_vehicle_20260819-114551__det.jpg	new	UP14GN0066	UP14GN0066	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (890)_0.jpg	archive	MH03AM5958	MH03AM5958	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-103439__det.jpg	new	UP27CT6766	UP27CT6766	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (366)_0.jpg	archive	MH12HL9421	MH12HL9421	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (279)_0.jpg	archive	MH06AS5441	MH06AS5441	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (445)_0.jpg	archive	MH14BC8780	MH14BC8780	True	correct	0.0	1.0	original:original:raw+sar
+old_License (777)_0.jpg	archive	WB02Z4997	WB02Z4997	True	correct	0.0	0.9985	original:original:raw+sar
+old_License (1363)_0.jpg	archive	DL5CH6685	DL5CH6685	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (765)_0.jpg	archive	HR26AQ2766	HR26AQ2766	True	correct	0.0	1.0	original:original:raw+sar
+old_License (9)_0.jpg	archive	DL1CP0290	DL1CP0290	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-115914__det.jpg	new	HR98Q8093	HR98Q8093	True	correct	0.0	0.9994	original:trim10:raw+sar
+new_cam02_11-41-47-926011_DL7CX8825__det.jpg	new	DL7CX8825	DL7CX8825	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (120)_0.jpg	archive	MH12GV4495	MH12GV4495	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1742)_0.jpg	archive	MP09CF7910	MP09CF7910	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000005_0.jpg	archive	KL35J4199	KL35J4199	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000005_1.jpg	archive	KL35J4199	KL35JK5699	False	extra_char	0.3333	0.8074	original:original:raw+sar
+old_License (134)_0.jpg	archive	MH14BK9931	MH14BK9931	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-101104__det.jpg	new	HR48E9780	HR48E9780	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (392)_0.jpg	archive	MH09BB4445	MH09BB4445	True	correct	0.0	1.0	original:trim18:raw+sar
+old_00000299_0.jpg	archive	KL18S2728	KL18S2728	True	correct	0.0	1.0	original:original:raw+sar
+old_00000299_1.jpg	archive	KL18S2728	KL18S2728	True	correct	0.0	0.9653	original:trim18:raw+sar
+old_License (891)_0.jpg	archive	MH12ET6622	MH12ET6622	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260820-093426__det.jpg	new	DL9CAW6856	DL9CAW6856	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (751)_0.jpg	archive	DL3CAL3739	DL3CAL3739	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam02_14-07-24-152764_23BH9598B__det.jpg	new	23BH9598B	23BH9598B	True	correct	0.0	0.9999	original:center50:raw+sar
+old_00000277_0.jpg	archive	JK55M5656	JK55M5656	True	correct	0.0	0.9987	original:original:raw+sar
+old_00000277_1.jpg	archive	JK55M5656	JK55M5656	True	correct	0.0	0.9992	original:original:raw+sar
+old_License (1431)_0.jpg	archive	AP28DD9291	AP28DD9291	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (569)_0.jpg	archive	DL3CBP0423	DL3CBP0423	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-093431__det.jpg	new	HR51CV1678	HR51CV1678	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_15-05-57-066578_DL1Z0684__det.jpg	new	DL1ZD6848	DL1ZD6848	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (1654)_0.jpg	archive	MH02CB1544	MH02CB1544	True	correct	0.0	1.0	original:original:raw+sar
+old_License (721)_0.jpg	archive	MH03AM4625	MH03AM4625	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260819-091643__det.jpg	new	HR48E9780	HR48E9780	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1067)_0.jpg	archive	TN20BF6121	TN20BF6121	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam01_16-04-03-594912_DL8CAS1432__det.jpg	new	DL8CAS1432	DL8CAS1432	True	correct	0.0	0.9946	original:center50:indian_10a+sar
+new_vehicle_20260820-121735__det.jpg	new	DL5CY1311	DL5CY1311	True	correct	0.0	1.0	original:center50:raw+sar
+new_vehicle_20260820-112540__det.jpg	new	DL1CX8939	DL1CX8939	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1025)_0.jpg	archive	MH04BD7328	MH04BD7328	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1132)_0.jpg	archive	MH03BE6763	MH03BE6763	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1706)_0.jpg	archive	MH04DW7092	MH04DW7092	True	correct	0.0	1.0	original:original:raw+sar
+old_00000127_1.jpg	archive	JH10BF4585	JH10BF4585	True	correct	0.0	1.0	original:original:raw+sar
+old_00000127_2.jpg	archive	TN01BJ7878	TN01BJ7878	True	correct	0.0	1.0	original:trim18:raw+sar
+old_00000127_3.jpg	archive	KA41EN1051	KA41EN1051	True	correct	0.0	0.9996	original:original:raw+sar
+old_00000012_0.jpg	archive	GJ01MW7581	GJ01MW7581	True	correct	0.0	0.9853	original:trim10:raw+sar
+new_cam02_13-15-57-225662_DL9CAZ2492__det.jpg	new	DL9CAZ2492	DL9CAZ2492	True	correct	0.0	1.0	original:trim25:raw+sar
+new_vehicle_20260819-094109__det.jpg	new	DL8CBL6960	DL8CBL6960	True	correct	0.0	1.0	original:center50:raw+sar
+new_cam02_14-56-23-062149_DL12CU988__det.jpg	new	DL12CU9888	DL12CU9888	True	correct	0.0	0.9999	original:center50:raw+sar
+old_License (73)_0.jpg	archive	PB10DN2421	PB10DN2421	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam02_10-58-48-176835_UP16BB5581__det.jpg	new	UP16BB5581	UP16BB5581	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1009)_0.jpg	archive	AP10AS2198	AP10AS2198	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-114600__det.jpg	new	HR26FN1430	HR26FN1430	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (1050)_0.jpg	archive	MH04CT2218	MH04CT2218	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1008)_0.jpg	archive	AP29AJ9099	AP29AJ9099	True	correct	0.0	1.0	original:original:raw+sar
+old_License (327)_0.jpg	archive	MH05AJ9929	MH05AJ9929	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (673)_0.jpg	archive	TN10AF1638	TN10AF1638	True	correct	0.0	1.0	original:original:raw+sar
+old_License (367)_0.jpg	archive	AP09BM5751	WP09B1751	False	dropped_char	0.3	0.8685	original:trim18:raw+statefix+sar
+old_License (1723)_0.jpg	archive	DL4CAL0801	DL4CAL0801	True	correct	0.0	1.0	original:original:raw+sar
+old_License (333)_0.jpg	archive	MH02BT4626	MH02BT4626	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1395)_0.jpg	archive	MH02BP1387	MH02BP1387	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (37)_0.jpg	archive	PB11AQ4942	PB11AQ4942	True	correct	0.0	0.9998	original:trim10:raw+sar
+old_License (1499)_0.jpg	archive	DL8CW0587	DL8CW0587	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_16-18-38-571624_DL10C0929__det.jpg	new	DL10CQ9293	DL10CQ9293	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (380)_0.jpg	archive	MH02JP1491	MH02JP1491	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1668)_0.jpg	archive	MH14DN6372	MH14DN6372	True	correct	0.0	1.0	original:original:raw+sar
+old_00000001_0.jpg	archive	KL65G4218	KL65G4218	True	correct	0.0	0.9879	original:trim10:raw+sar
+old_00000001_1.jpg	archive	KL65G4218	KL65G421	False	dropped_char	0.1111	0.999	original:center60:raw+sar
+old_License (1264)_0.jpg	archive	DL9CN5272	DL9CN5272	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1827)_0.jpg	archive	WB20H2215	WB20H2215	True	correct	0.0	1.0	original:original:raw+sar
+new_cam01_15-20-11-150192_DL14CL009__asis.jpg	new	DL14CL0094	DL14CL0094	True	correct	0.0	0.9998	original:trim10:raw+sar
+old_License (109)_0.jpg	archive	MH12FK1463	MH12FK1463	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-094500__det.jpg	new	DL1CAC7239	DL1CAC7239	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam02_13-54-01-247744_HR10AR3240__det.jpg	new	HR10AR3240	HR10AR3240	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1698)_0.jpg	archive	MH04EC9669	MH04EC9669	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1245)_0.jpg	archive	UP14AY2019	UP14AY2019	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_11-28-48-721706_DL2CBO4548__det.jpg	new	DL2CBD4548	DL2CBD4548	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1414)_0.jpg	archive	WB06C9080	WB06C9080	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-114954__det.jpg	new	DL9CAX6604	DL9CAX6604	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_15-18-03-786564_25BH0978N__det.jpg	new	25BH0978M	25BH0978M	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1672)_0.jpg	archive	KA04ML3183	KA04ML3183	True	correct	0.0	1.0	original:trim18:raw+sar
+new_cam01_14-32-02-082194_L1CKBSN45__asis.jpg	new	DL1CAD5004	DL1CAD5004	True	correct	0.0	0.9985	original:original:raw+sar
+new_vehicle_20260819-104802__det.jpg	new	HR26GA0245	HR26GA0245	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1681)_0.jpg	archive	DL3CBM6489	DL3CBM6489	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-091951__det.jpg	new	DL9CBD7781	DL9CBD7781	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (388)_0.jpg	archive	MH04DN3751	MH04DN3751	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1192)_0.jpg	archive	AP29BJ6333	AP29BJ6333	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1422)_0.jpg	archive	AP09BV7573	AP09BV7573	True	correct	0.0	1.0	original:original:raw+sar
+old_License (295)_0.jpg	archive	MH14DN0092	MH14DN0092	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1226)_0.jpg	archive	MH14DT9633	MH14DT9633	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (661)_0.jpg	archive	MH05AX8009	MH05AX8009	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1319)_0.jpg	archive	DL3CBS3000	DL3CBS3000	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1298)_0.jpg	archive	DL2CAL4370	DL2CAL4370	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (64)_0.jpg	archive	MH15CT4851	MH15CT4851	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_12-30-29-312770_DL7CW6770__det.jpg	new	DL7CW6770	DL7CW6770	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260819-114418__det.jpg	new	HR87Q2667	HR87Q2667	True	correct	0.0	1.0	original:center50:raw+sar
+new_vehicle_20260819-103015__det.jpg	new	HR98AB9980	HR98AB9980	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1081)_0.jpg	archive	TN22CZ4300	TN22CZ4300	True	correct	0.0	1.0	original:original:raw+sar
+old_License (467)_0.jpg	archive	WB06E0652	WB06E0652	True	correct	0.0	1.0	original:original:raw+sar
+old_License (8)_0.jpg	archive	HR26BG0383	HR26BG0383	True	correct	0.0	1.0	original:center60:raw+sar
+new_vehicle_20260820-104226__det.jpg	new	HR26FP1105	HR26FP1105	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_15-09-05-169264_DL4CBF1208__asis.jpg	new	DL4CBF1208	DL4CBF1208	True	correct	0.0	0.9999	original:trim25:raw+sar
+old_License (414)_0.jpg	archive	MH15CD0858	MH15CD0858	True	correct	0.0	0.9922	original:center60:raw+sar
+old_License (1066)_0.jpg	archive	MH12EX7388	MH12EX7388	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam01_14-45-41-070188_DL2CAV8498__det.jpg	new	DL2CAW8498	DL2CAW8498	True	correct	0.0	1.0	original:original:raw+sar
+old_License (937)_0.jpg	archive	MH48A6131	MH48A6131	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260819-100617__det.jpg	new	HR31T2355	HR31T2355	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (148)_0.jpg	archive	MH03AW3008	MH03AW3008	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000340_0.jpg	archive	MH20DV2363	MH20DV2363	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (712)_0.jpg	archive	MH12GV5892	MH12GV5892	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (814)_0.jpg	archive	AP23P0123	AP23P0123	True	correct	0.0	1.0	original:original:raw+sar
+old_00000373_0.jpg	archive	AP39BD0606	AP39BD0666	False	same_length_confusion	0.1	0.876	original:trim25:raw+sar
+old_License (1865)_0.jpg	archive	MH01BG1180	MH01BG1180	True	correct	0.0	1.0	original:trim25:raw+sar
+new_cam01_12-54-14-728262_DL1CT2539__det.jpg	new	DL1CT2539	DL1CT2539	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260819-090618__det.jpg	new	HR98E0428	HR98E0428	True	correct	0.0	1.0	original:center50:raw+sar
+new_cam02_14-11-12-820221_24BH2037K__det.jpg	new	24BH2037K	24BH2037K	True	correct	0.0	1.0	original:center50:raw+sar
+new_cam01_15-43-36-168261_OI10Y7757__asis.jpg	new	DL1CW7758	DL1CW7758	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_15-54-56-666863_DL1CW7884__asis.jpg	new	DL1CW7884	DL1CW7884	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1620)_0.jpg	archive	MH02BG4844	MH02BG4844	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-111510__det.jpg	new	HR98P6756	HR98P6756	True	correct	0.0	1.0	original:center60:raw+sar
+new_cam02_12-00-31-758487_DL12CV1891__det.jpg	new	DL12CV1891	DL12CV1891	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1831)_0.jpg	archive	MP48BD1069	MP43BD1069	False	same_length_confusion	0.1	1.0	original:trim25:raw+sar
+old_License (1892)_0.jpg	archive	MH03AZ5074	MH03AZ5074	True	correct	0.0	1.0	original:center60:raw+sar
+old_00000073_0.jpg	archive	KL13AM1506	KL13AM1506	True	correct	0.0	1.0	original:original:raw+sar
+old_00000073_1.jpg	archive	KL13AM1506	KL13AM1506	True	correct	0.0	0.9923	original:trim10:raw+sar
+old_License (927)_0.jpg	archive	MH14DA0570	MH14DA0570	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1860)_0.jpg	archive	MH02CP4984	MH02CP4984	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_13-40-54-712720_DL2CBO4424__det.jpg	new	DL2CBD4424	DL2CBD4424	True	correct	0.0	0.9999	original:trim25:raw+sar
+old_00000371_0.jpg	archive	KL18X9570	KL18X9570	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000371_1.jpg	archive	KL11BQ6964	KL11BQ6964	True	correct	0.0	1.0	original:original:raw+sar
+old_00000371_2.jpg	archive	KL11BQ6964	KL11BQ6964	True	correct	0.0	0.9894	original:trim18:raw+sar
+new_cam01_11-34-30-559987_22BH0432C__det.jpg	new	22BH0432C	22BH0432C	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1072)_0.jpg	archive	MP09CL5296	MP09CL5296	True	correct	0.0	1.0	original:trim18:raw+sar
+old_00000333_0.jpg	archive	KL07CJ8999	KL07CJ8999	True	correct	0.0	1.0	original:original:raw+sar
+old_00000333_1.jpg	archive	KL07CJ8999	KL07CJ8999	True	correct	0.0	0.9951	original:original:raw+sar
+new_cam02_12-57-39-551972_DL2CAT5423__asis.jpg	new	DL2CAY5423	DL2CAY5423	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (432)_0.jpg	archive	MH01AR8912	MH01AR8912	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1712)_0.jpg	archive	MH14DN8522	MH14DN8522	True	correct	0.0	1.0	original:original:raw+sar
+old_License (305)_0.jpg	archive	DL4CAH8648	DL4CAH8648	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1878)_0.jpg	archive	MH12HF3767	MH12HF3767	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (654)_0.jpg	archive	MH02BT4600	MH02BT4600	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_14-51-39-443835_DL12O4452__asis.jpg	new	DL1ZD4452	DL1ZD4452	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1677)_0.jpg	archive	MH12EX2459	MH12EX2459	True	correct	0.0	1.0	original:original:raw+sar
+old_License (742)_0.jpg	archive	DL10CD7259	DL10CD7259	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (849)_0.jpg	archive	MH13AZ3659	MH13AZ3659	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1490)_0.jpg	archive	WB20U6373	WB20U6373	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260819-105013__det.jpg	new	HR984127	HR984127	True	correct	0.0	0.9994	original:trim25:indian_8+sar
+old_00000204_0.jpg	archive	KL17T2393	KL17T2393	True	correct	0.0	1.0	original:original:raw+sar
+old_00000204_1.jpg	archive	KL17T2393	KL17T2393	True	correct	0.0	0.997	original:original:raw+sar
+old_00000204_2.jpg	archive	RJ36SP7636	RJ36SP7636	True	correct	0.0	0.9999	original:original:raw+sar
+old_00000204_3.jpg	archive	RJ36SP7636	RJ36SP7636	True	correct	0.0	0.9969	original:original:raw+sar
+old_00000204_4.jpg	archive	KL65M8846	KL65M8846	True	correct	0.0	1.0	original:original:raw+sar
+old_00000204_5.jpg	archive	KL65M8846	KL65M8846	True	correct	0.0	0.9898	original:trim18:raw+sar
+old_License (1721)_0.jpg	archive	TN22CR0097	TN22CR0097	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (859)_0.jpg	archive	MP41BC0824	MP41BC0824	True	correct	0.0	0.9597	original:center60:raw+sar
+new_cam02_13-27-06-799884_HR29BA8883__det.jpg	new	HR29BA8883	HR29BA8883	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1087)_0.jpg	archive	KL48A7761	KL48A7761	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1352)_0.jpg	archive	AP29AS8055	AP29AS8055	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1793)_0.jpg	archive	UP16T6435	UP16T6435	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260819-113214__det.jpg	new	HR55AQ6878	HR55A06878	False	same_length_confusion	0.1	0.9907	original:trim18:indian_10b+sar
+old_License (1200)_0.jpg	archive	AP29AV2349	AP29AV2349	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-120926__det.jpg	new	DL4CBB2874	DL4CBB2874	True	correct	0.0	1.0	original:trim25:raw+sar
+old_License (1354)_0.jpg	archive	MH14BX0026	MH14BX0026	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (535)_0.jpg	archive	TN06F1742	TN06F1742	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1647)_0.jpg	archive	DL3CBM9156	DL3CBM9156	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_16-05-39-320707_FD12CB1996__det.jpg	new	DL2CBG1996	DL2CBG1996	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1327)_0.jpg	archive	MH05AX3628	MH05AX3628	True	correct	0.0	1.0	original:original:raw+sar
+new_vehicle_20260820-110300__det.jpg	new	HR98D6558	HR98D6558	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_14-09-51-261733_UP17I1730__asis.jpg	new	UP17Y1730	UP17Y1730	True	correct	0.0	1.0	original:trim10:raw+sar
+new_vehicle_20260820-092211__det.jpg	new	HR02AW4899	HR02AW4899	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (1709)_0.jpg	archive	TN37CA5164	TN37CA5164	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1086)_0.jpg	archive	TN20BT7899	TN20BT7899	True	correct	0.0	1.0	original:trim10:raw+sar
+old_License (1373)_0.jpg	archive	MH06AN7207	MH06AN7207	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_11-45-17-728813_HR5BB1897__det.jpg	new	HR55BB1897	HR55BB1897	True	correct	0.0	1.0	original:center50:raw+sar
+old_License (1524)_0.jpg	archive	MH04ED9960	MH04ED9960	True	correct	0.0	1.0	original:center50:raw+sar
+new_cam01_13-30-09-367986_DL3CI5003__asis.jpg	new	DL3CCX5003	DL3CCX5003	True	correct	0.0	0.9793	original:trim25:raw+sar
+old_License (610)_0.jpg	archive	DL2CAR2985	DL2CAR2985	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_12-24-01-732262_DL3CAR0256__det.jpg	new	DL9CAR0256	DL9CAR0256	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (104)_0.jpg	archive	WB02AB4631	WB02AB4631	True	correct	0.0	1.0	original:original:raw+sar
+old_License (1237)_0.jpg	archive	MH12FU5326	MH12FU5326	True	correct	0.0	1.0	original:original:raw+sar
+old_License (860)_0.jpg	archive	MP41BC0824	MP41BC0824	True	correct	0.0	0.9597	original:center60:raw+sar
+old_License (699)_0.jpg	archive	MH12GK4908	MH12GK4908	True	correct	0.0	1.0	original:original:raw+sar
+old_License (127)_0.jpg	archive	MH12EM6015	MH12EM6015	True	correct	0.0	1.0	original:center60:raw+sar
+old_License (1384)_0.jpg	archive	DL3CBJ8153	DL3CBJ8153	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam01_14-39-20-176202_DL1CAF0775__det.jpg	new	DL1CAF0775	DL1CAF0775	True	correct	0.0	1.0	original:trim18:raw+sar
+new_vehicle_20260819-105818__det.jpg	new	UP14FR3002	UP14FR3002	True	correct	0.0	1.0	original:trim10:raw+sar
+old_00000042_0.jpg	archive	GJ07CF7956	GJ07CF7956	True	correct	0.0	0.9996	original:original:raw+sar
+old_License (1703)_0.jpg	archive	KA53N6415	KA53N6415	True	correct	0.0	1.0	original:trim18:raw+sar
+old_License (757)_0.jpg	archive	DL7CP0206	DL7CP0206	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_12-47-19-715949_BR51CH1053__det.jpg	new	HR51CW1053	HR51CW1053	True	correct	0.0	1.0	original:center60:raw+sar
+new_vehicle_20260819-115230__det.jpg	new	DL9CAR3556	DL9CAR3556	True	correct	0.0	1.0	original:trim10:raw+sar
+new_cam02_14-32-04-403465_DL1CAD5004__det.jpg	new	DL1CAD5004	DL1CAD5004	True	correct	0.0	1.0	original:center50:raw+sar
+new_cam02_14-10-26-800378_DL1CT158__det.jpg	new	DL1CT1588	DL1CT1588	True	correct	0.0	0.9999	original:center50:raw+sar
+old_License (684)_0.jpg	archive	MH14BX2323	MH14BX2323	True	correct	0.0	1.0	original:original:raw+sar
+new_cam02_15-10-01-052010_HR55BB3666__det.jpg	new	HR55BB3666	HR55BB3666	True	correct	0.0	1.0	original:center60:raw+sar

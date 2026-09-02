@@ -1,0 +1,467 @@
+{
+  "dataset": "ocr_training/labels_draft.tsv after exclude_training.tsv",
+  "total_images": 737,
+  "correct": 687,
+  "wrong": 50,
+  "accuracy_percent": 93.22,
+  "counts": {
+    "dropped_char": 15,
+    "correct": 687,
+    "same_length_confusion": 32,
+    "extra_char": 3
+  },
+  "wrong_examples_first_100": [
+    {
+      "filename": "cam01_10-59-24-088029_DL5CY3199__det.jpg",
+      "ground_truth": "DL5CY3099",
+      "ocr": "DL5C3349",
+      "category": "dropped_char",
+      "confidence": 0.8942,
+      "variant": "sharp:original:raw",
+      "edit_ops": "delete:Y->@4;replace:0->34@6;delete:9->@8"
+    },
+    {
+      "filename": "cam01_11-47-23-691380_DL3CN8240__det.jpg",
+      "ground_truth": "DL3CCA9240",
+      "ocr": "DL3CCM9240",
+      "category": "same_length_confusion",
+      "confidence": 0.9958,
+      "variant": "original:trim10:raw",
+      "edit_ops": "replace:A->M@5"
+    },
+    {
+      "filename": "cam01_11-50-07-796730_FD12CK5706__det.jpg",
+      "ground_truth": "DL2CAY5706",
+      "ocr": "DL2CA5706",
+      "category": "dropped_char",
+      "confidence": 0.999,
+      "variant": "original:center60:raw",
+      "edit_ops": "delete:Y->@5"
+    },
+    {
+      "filename": "cam01_12-03-47-122117_F0L1CKS372__asis.jpg",
+      "ground_truth": "DL1CAC5372",
+      "ocr": "DL1CAC372",
+      "category": "dropped_char",
+      "confidence": 0.9317,
+      "variant": "original:trim25:raw",
+      "edit_ops": "delete:5->@6"
+    },
+    {
+      "filename": "cam01_12-04-29-546255_TI1O5159__det.jpg",
+      "ground_truth": "TN11AQ5155",
+      "ocr": "TN11AO5155",
+      "category": "same_length_confusion",
+      "confidence": 0.9324,
+      "variant": "sharp:trim10:raw",
+      "edit_ops": "replace:Q->O@5"
+    },
+    {
+      "filename": "cam01_12-05-00-512398_DL2CBF0829__det.jpg",
+      "ground_truth": "DL2CBF0829",
+      "ocr": "DL2CBF0929",
+      "category": "same_length_confusion",
+      "confidence": 0.9946,
+      "variant": "original:center60:raw",
+      "edit_ops": "replace:8->9@7"
+    },
+    {
+      "filename": "cam01_12-32-42-801090_DL1GD1605__asis.jpg",
+      "ground_truth": "DL1GD1685",
+      "ocr": "DL1GH1685",
+      "category": "same_length_confusion",
+      "confidence": 0.9575,
+      "variant": "clahe:center50:indian_9a",
+      "edit_ops": "replace:D->H@4"
+    },
+    {
+      "filename": "cam01_12-33-57-337365_OL12CT0820__det.jpg",
+      "ground_truth": "DL12CT0820",
+      "ocr": "DL12CT0920",
+      "category": "same_length_confusion",
+      "confidence": 0.9997,
+      "variant": "original:center50:raw",
+      "edit_ops": "replace:8->9@7"
+    },
+    {
+      "filename": "cam01_13-29-35-302922_DL3CB2107__asis.jpg",
+      "ground_truth": "DL9CBB2100",
+      "ocr": "DL3CBB2100",
+      "category": "same_length_confusion",
+      "confidence": 0.9305,
+      "variant": "clahe:original:raw",
+      "edit_ops": "replace:9->3@2"
+    },
+    {
+      "filename": "cam01_14-10-13-235261_UP16Z1027__asis.jpg",
+      "ground_truth": "UP16EK0332",
+      "ocr": "UP16EK0337",
+      "category": "same_length_confusion",
+      "confidence": 0.9456,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "replace:2->7@9"
+    },
+    {
+      "filename": "cam01_14-15-38-615922_OD05AX6432__det.jpg",
+      "ground_truth": "OD05AX6432",
+      "ocr": "OD5AX6432",
+      "category": "dropped_char",
+      "confidence": 0.9262,
+      "variant": "original:center60:raw+statefix",
+      "edit_ops": "delete:0->@2"
+    },
+    {
+      "filename": "cam01_14-17-42-404624_TL2CEC37__asis.jpg",
+      "ground_truth": "DL2CBE6344",
+      "ocr": "DL2CBE63444",
+      "category": "extra_char",
+      "confidence": 0.9286,
+      "variant": "original:center50:raw",
+      "edit_ops": "insert:->4@10"
+    },
+    {
+      "filename": "cam01_14-21-30-887619_DL70Y6770__asis.jpg",
+      "ground_truth": "DL7CW6770",
+      "ocr": "DL7CV6770",
+      "category": "same_length_confusion",
+      "confidence": 0.9568,
+      "variant": "original:center60:raw",
+      "edit_ops": "replace:W->V@4"
+    },
+    {
+      "filename": "cam01_14-23-12-416693_DL8CJ2192__asis.jpg",
+      "ground_truth": "DL8CBJ2192",
+      "ocr": "DL8CCJ2192",
+      "category": "same_length_confusion",
+      "confidence": 0.9911,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "replace:B->C@4"
+    },
+    {
+      "filename": "cam01_14-56-20-899889_DL12CU983__det.jpg",
+      "ground_truth": "DL12CU9888",
+      "ocr": "DL12CU9898",
+      "category": "same_length_confusion",
+      "confidence": 0.8997,
+      "variant": "original:original:raw",
+      "edit_ops": "insert:->9@8;delete:8->@9"
+    },
+    {
+      "filename": "cam01_14-59-30-424840_AM12OIK1371__asis.jpg",
+      "ground_truth": "DL1CW4657",
+      "ocr": "DL1CW457",
+      "category": "dropped_char",
+      "confidence": 0.9478,
+      "variant": "original:original:raw",
+      "edit_ops": "delete:6->@6"
+    },
+    {
+      "filename": "cam01_15-09-21-316891_DL2CAI5706__asis.jpg",
+      "ground_truth": "DL2CAY5706",
+      "ocr": "DL2CAI5706",
+      "category": "same_length_confusion",
+      "confidence": 0.9905,
+      "variant": "original:center60:raw",
+      "edit_ops": "replace:Y->I@5"
+    },
+    {
+      "filename": "cam01_15-20-11-150192_DL14CL009__asis.jpg",
+      "ground_truth": "DL14CL0094",
+      "ocr": "DL1CL0094",
+      "category": "dropped_char",
+      "confidence": 0.9265,
+      "variant": "original:trim10:raw",
+      "edit_ops": "delete:4->@3"
+    },
+    {
+      "filename": "cam01_15-23-25-869315_UL1CT6217__asis.jpg",
+      "ground_truth": "DL10CY6209",
+      "ocr": "DL11CY644",
+      "category": "dropped_char",
+      "confidence": 0.9474,
+      "variant": "original:trim25:raw",
+      "edit_ops": "replace:0->1@3;replace:209->44@7"
+    },
+    {
+      "filename": "cam01_15-36-41-155732_WB21O9731__asis.jpg",
+      "ground_truth": "DL1CU9173",
+      "ocr": "DL1CU973",
+      "category": "dropped_char",
+      "confidence": 0.9622,
+      "variant": "original:original:raw",
+      "edit_ops": "delete:1->@6"
+    },
+    {
+      "filename": "cam01_15-48-52-849443_DL9CBC9965__det.jpg",
+      "ground_truth": "DL9CBG9965",
+      "ocr": "DL9CBG9969",
+      "category": "same_length_confusion",
+      "confidence": 0.9753,
+      "variant": "original:center50:raw",
+      "edit_ops": "replace:5->9@9"
+    },
+    {
+      "filename": "cam01_15-57-12-294028_AA7A72V1__asis.jpg",
+      "ground_truth": "DL7CV6369",
+      "ocr": "DL7CY669",
+      "category": "dropped_char",
+      "confidence": 0.944,
+      "variant": "original:original:raw",
+      "edit_ops": "replace:V->Y@4;delete:3->@6"
+    },
+    {
+      "filename": "cam02_11-09-27-865268_AI01BF7620__det.jpg",
+      "ground_truth": "KL01BF7660",
+      "ocr": "KL01BF160",
+      "category": "dropped_char",
+      "confidence": 0.9427,
+      "variant": "original:trim10:raw",
+      "edit_ops": "replace:76->1@6"
+    },
+    {
+      "filename": "cam02_11-50-08-596284_DL2CA5706__det.jpg",
+      "ground_truth": "DL2CAY5706",
+      "ocr": "DL2CAI5706",
+      "category": "same_length_confusion",
+      "confidence": 0.9959,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "replace:Y->I@5"
+    },
+    {
+      "filename": "cam02_13-35-51-715395_DL14C9347__det.jpg",
+      "ground_truth": "DL14CG9347",
+      "ocr": "DL14CC9347",
+      "category": "same_length_confusion",
+      "confidence": 0.9986,
+      "variant": "original:trim25:raw",
+      "edit_ops": "replace:G->C@5"
+    },
+    {
+      "filename": "cam02_14-21-13-491393_DL8CBC490__asis.jpg",
+      "ground_truth": "DL8CBC4490",
+      "ocr": "DL8CBC490",
+      "category": "dropped_char",
+      "confidence": 0.962,
+      "variant": "sharp:trim10:raw",
+      "edit_ops": "delete:4->@7"
+    },
+    {
+      "filename": "cam02_14-43-09-980545_DL8CAN2796__det.jpg",
+      "ground_truth": "DL8CAY2796",
+      "ocr": "DL8CAV2796",
+      "category": "same_length_confusion",
+      "confidence": 0.9997,
+      "variant": "original:center50:raw",
+      "edit_ops": "replace:Y->V@5"
+    },
+    {
+      "filename": "cam02_14-46-59-281066_HR1O5997__det.jpg",
+      "ground_truth": "HR10S9997",
+      "ocr": "HR10S997",
+      "category": "dropped_char",
+      "confidence": 0.967,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "delete:9->@7"
+    },
+    {
+      "filename": "cam02_15-01-57-349752_DN17CB082__asis.jpg",
+      "ground_truth": "DL1ZC6082",
+      "ocr": "DL12C6082",
+      "category": "same_length_confusion",
+      "confidence": 0.9911,
+      "variant": "original:trim25:raw",
+      "edit_ops": "replace:Z->2@3"
+    },
+    {
+      "filename": "cam02_15-18-03-786564_25BH0978N__det.jpg",
+      "ground_truth": "25BH0978M",
+      "ocr": "25BH0978K",
+      "category": "same_length_confusion",
+      "confidence": 0.9837,
+      "variant": "original:center50:raw",
+      "edit_ops": "replace:M->K@8"
+    },
+    {
+      "filename": "vehicle_20260819-090732__det.jpg",
+      "ground_truth": "HR26EC5866",
+      "ocr": "HR26EC5066",
+      "category": "same_length_confusion",
+      "confidence": 0.9958,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "replace:8->0@7"
+    },
+    {
+      "filename": "vehicle_20260819-095625__det.jpg",
+      "ground_truth": "OD33AV4533",
+      "ocr": "DD33AVA5333",
+      "category": "extra_char",
+      "confidence": 0.9289,
+      "variant": "original:trim25:raw",
+      "edit_ops": "replace:O->D@0;replace:4->A@6;insert:->3@10"
+    },
+    {
+      "filename": "vehicle_20260819-101327__det.jpg",
+      "ground_truth": "HR26GA7003",
+      "ocr": "HR26GH7003",
+      "category": "same_length_confusion",
+      "confidence": 0.9696,
+      "variant": "clahe:original:raw",
+      "edit_ops": "replace:A->H@5"
+    },
+    {
+      "filename": "vehicle_20260819-103326__det.jpg",
+      "ground_truth": "T0826HR6236BY",
+      "ocr": "TG082HR6236BY",
+      "category": "same_length_confusion",
+      "confidence": 0.9339,
+      "variant": "original:center60:raw",
+      "edit_ops": "insert:->G@1;delete:6->@4"
+    },
+    {
+      "filename": "vehicle_20260819-105013__det.jpg",
+      "ground_truth": "HR984127",
+      "ocr": "HR9B4127",
+      "category": "same_length_confusion",
+      "confidence": 0.997,
+      "variant": "original:trim25:indian_8",
+      "edit_ops": "replace:8->B@3"
+    },
+    {
+      "filename": "vehicle_20260819-105659__det.jpg",
+      "ground_truth": "HR55BB3722",
+      "ocr": "HR55BB322",
+      "category": "dropped_char",
+      "confidence": 0.9955,
+      "variant": "clahe:trim25:raw",
+      "edit_ops": "delete:7->@7"
+    },
+    {
+      "filename": "vehicle_20260819-111521__det.jpg",
+      "ground_truth": "DL9EV4181",
+      "ocr": "DL9EVA1811",
+      "category": "extra_char",
+      "confidence": 0.9823,
+      "variant": "clahe:trim18:indian_10a",
+      "edit_ops": "replace:4->A@5;insert:->1@9"
+    },
+    {
+      "filename": "vehicle_20260819-113214__det.jpg",
+      "ground_truth": "HR55AQ6878",
+      "ocr": "HR55AO6878",
+      "category": "same_length_confusion",
+      "confidence": 0.9988,
+      "variant": "clahe:center50:indian_10b",
+      "edit_ops": "replace:Q->O@5"
+    },
+    {
+      "filename": "vehicle_20260819-114717__det.jpg",
+      "ground_truth": "UP75CT4649",
+      "ocr": "UP75CY4649",
+      "category": "same_length_confusion",
+      "confidence": 0.9801,
+      "variant": "clahe:center50:raw",
+      "edit_ops": "replace:T->Y@5"
+    },
+    {
+      "filename": "vehicle_20260819-115230__det.jpg",
+      "ground_truth": "DL9CAR3556",
+      "ocr": "DL9CAR3555",
+      "category": "same_length_confusion",
+      "confidence": 0.9632,
+      "variant": "original:trim10:raw",
+      "edit_ops": "replace:6->5@9"
+    },
+    {
+      "filename": "vehicle_20260820-092620__det.jpg",
+      "ground_truth": "HR55BD1288",
+      "ocr": "HR55BQ1288",
+      "category": "same_length_confusion",
+      "confidence": 0.9756,
+      "variant": "sharp:trim25:raw",
+      "edit_ops": "replace:D->Q@5"
+    },
+    {
+      "filename": "vehicle_20260820-093431__det.jpg",
+      "ground_truth": "HR51CV1678",
+      "ocr": "HR51OV1678",
+      "category": "same_length_confusion",
+      "confidence": 0.9837,
+      "variant": "clahe:original:raw",
+      "edit_ops": "replace:C->O@4"
+    },
+    {
+      "filename": "vehicle_20260820-101109__det.jpg",
+      "ground_truth": "JH01ES2902",
+      "ocr": "JH01ES2922",
+      "category": "same_length_confusion",
+      "confidence": 0.8891,
+      "variant": "original:original:raw",
+      "edit_ops": "delete:0->@8;insert:->2@10"
+    },
+    {
+      "filename": "vehicle_20260820-103439__det.jpg",
+      "ground_truth": "UP27CT6766",
+      "ocr": "UP27CT676",
+      "category": "dropped_char",
+      "confidence": 0.9906,
+      "variant": "original:trim25:raw",
+      "edit_ops": "delete:6->@9"
+    },
+    {
+      "filename": "vehicle_20260820-105154__det.jpg",
+      "ground_truth": "HR984127",
+      "ocr": "HR9B4127",
+      "category": "same_length_confusion",
+      "confidence": 0.9891,
+      "variant": "original:center50:indian_8",
+      "edit_ops": "replace:8->B@3"
+    },
+    {
+      "filename": "vehicle_20260820-112000__det.jpg",
+      "ground_truth": "DL3CCL1005",
+      "ocr": "DL9CCL1005",
+      "category": "same_length_confusion",
+      "confidence": 0.9191,
+      "variant": "clahe:center60:raw",
+      "edit_ops": "replace:3->9@2"
+    },
+    {
+      "filename": "vehicle_20260820-112004__det.jpg",
+      "ground_truth": "DL1CX8939",
+      "ocr": "DL1CY8939",
+      "category": "same_length_confusion",
+      "confidence": 0.9901,
+      "variant": "clahe:trim18:raw",
+      "edit_ops": "replace:X->Y@4"
+    },
+    {
+      "filename": "vehicle_20260820-114639__det.jpg",
+      "ground_truth": "HR87K4122",
+      "ocr": "HR27K4122",
+      "category": "same_length_confusion",
+      "confidence": 0.8933,
+      "variant": "original:trim10:raw",
+      "edit_ops": "replace:8->2@2"
+    },
+    {
+      "filename": "vehicle_20260820-121227__det.jpg",
+      "ground_truth": "GJ06RF6576",
+      "ocr": "GJ06PF6576",
+      "category": "same_length_confusion",
+      "confidence": 0.9893,
+      "variant": "original:center50:raw",
+      "edit_ops": "replace:R->P@4"
+    },
+    {
+      "filename": "vehicle_20260820-121321__det.jpg",
+      "ground_truth": "DL8CBL4171",
+      "ocr": "DL8BL4171",
+      "category": "dropped_char",
+      "confidence": 0.9793,
+      "variant": "original:trim10:raw",
+      "edit_ops": "delete:C->@3"
+    }
+  ],
+  "report_path": "D:\\bhikaji\\bhikajianpr\\anpr-ai-service\\ocr_training\\ocr_eval_new_report.tsv",
+  "elapsed_seconds": 2754.44
+}

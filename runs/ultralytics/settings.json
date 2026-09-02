@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\bhikaji\\bhikajianpr\\anpr-ai-service\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "7b58a055c40f8d3796d0141df937ea59d2bdcff165f3b69d784993443d7baa05",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": true,
+  "wandb": false,
+  "vscode_msg": true
+}

@@ -1,0 +1,91 @@
+{
+  "model_dir": "D:\\bhikaji\\bhikajianpr\\anpr-ai-service\\weights/rec_indian_plate_infer",
+  "by_source": {
+    "archive": {
+      "total": 170,
+      "correct": 165,
+      "exact_match_accuracy_percent": 97.06,
+      "mean_character_error_rate": 0.0056
+    },
+    "new": {
+      "total": 83,
+      "correct": 82,
+      "exact_match_accuracy_percent": 98.8,
+      "mean_character_error_rate": 0.0012
+    }
+  },
+  "overall": {
+    "total": 253,
+    "correct": 247,
+    "exact_match_accuracy_percent": 97.63,
+    "mean_character_error_rate": 0.0041
+  },
+  "wrong_examples_first_50": [
+    {
+      "filename": "old_00000005_1.jpg",
+      "source": "archive",
+      "ground_truth": "KL35J4199",
+      "ocr": "KL35JK5699",
+      "correct": false,
+      "category": "extra_char",
+      "cer": 0.3333,
+      "confidence": 0.8074,
+      "variant": "original:original:raw+sar"
+    },
+    {
+      "filename": "old_License (367)_0.jpg",
+      "source": "archive",
+      "ground_truth": "AP09BM5751",
+      "ocr": "WP09B1751",
+      "correct": false,
+      "category": "dropped_char",
+      "cer": 0.3,
+      "confidence": 0.8685,
+      "variant": "original:trim18:raw+statefix+sar"
+    },
+    {
+      "filename": "old_00000001_1.jpg",
+      "source": "archive",
+      "ground_truth": "KL65G4218",
+      "ocr": "KL65G421",
+      "correct": false,
+      "category": "dropped_char",
+      "cer": 0.1111,
+      "confidence": 0.999,
+      "variant": "original:center60:raw+sar"
+    },
+    {
+      "filename": "old_00000373_0.jpg",
+      "source": "archive",
+      "ground_truth": "AP39BD0606",
+      "ocr": "AP39BD0666",
+      "correct": false,
+      "category": "same_length_confusion",
+      "cer": 0.1,
+      "confidence": 0.876,
+      "variant": "original:trim25:raw+sar"
+    },
+    {
+      "filename": "old_License (1831)_0.jpg",
+      "source": "archive",
+      "ground_truth": "MP48BD1069",
+      "ocr": "MP43BD1069",
+      "correct": false,
+      "category": "same_length_confusion",
+      "cer": 0.1,
+      "confidence": 1.0,
+      "variant": "original:trim25:raw+sar"
+    },
+    {
+      "filename": "new_vehicle_20260819-113214__det.jpg",
+      "source": "new",
+      "ground_truth": "HR55AQ6878",
+      "ocr": "HR55A06878",
+      "correct": false,
+      "category": "same_length_confusion",
+      "cer": 0.1,
+      "confidence": 0.9907,
+      "variant": "original:trim18:indian_10b+sar"
+    }
+  ]
+}

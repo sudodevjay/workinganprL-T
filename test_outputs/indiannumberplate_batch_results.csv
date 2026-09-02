@@ -1,0 +1,183 @@
+source,plate_text,plate_text_valid,plate_confidence,vehicle_type,vehicle_color,plate_color,plate_state_code,plate_state_name
+vehicle_20260819-021545.jpg,WP63D3843,True,0.8901,Unknown,black,Unknown,,
+vehicle_20260819-070604.jpg,HR55AS0594,True,0.9993,pickup,silver,White,HR,Haryana
+vehicle_20260819-074716.jpg,DL10EV9409,True,0.999,van,black,Unknown,DL,Delhi
+vehicle_20260819-081038.jpg,DL12CS0650,True,0.9998,sedan,blue,White,DL,Delhi
+vehicle_20260819-081050.jpg,PB34C9534,True,0.9994,coupe,black,Unknown,PB,Punjab
+vehicle_20260819-083028.jpg,DL12CV5224,True,0.9999,suv,blue,White,DL,Delhi
+vehicle_20260819-083233.jpg,HR26FD1219,True,0.9844,coupe,grey,Unknown,HR,Haryana
+vehicle_20260819-084756.jpg,HR26FP1453,True,0.9978,van,brown,Unknown,HR,Haryana
+vehicle_20260819-084839.jpg,RJ13CF9624,True,0.9997,pickup,black,White,RJ,Rajasthan
+vehicle_20260819-085221.jpg,HR98M6102,True,0.9987,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-085255.jpg,HR26GF1628,True,0.9998,suv,black,Unknown,HR,Haryana
+vehicle_20260819-085719.jpg,HR26GA3302,True,0.9956,pickup,brown,Unknown,HR,Haryana
+vehicle_20260819-090037.jpg,HR98L1443,True,0.9973,sedan,blue,White,HR,Haryana
+vehicle_20260819-090618.jpg,HR98E0428,True,0.9984,sedan,blue,Unknown,HR,Haryana
+vehicle_20260819-090648.jpg,DL9CBD8481,True,0.9969,sedan,black,White,DL,Delhi
+vehicle_20260819-090703.jpg,HR26EN1559,True,0.9954,van,grey,White,HR,Haryana
+vehicle_20260819-090732.jpg,HR26EC5066,True,0.9954,sedan,grey,Unknown,HR,Haryana
+vehicle_20260819-091030.jpg,HR72K5932,True,0.9991,coupe,black,Unknown,HR,Haryana
+vehicle_20260819-091241.jpg,HR07AB4049,True,0.9998,van,tan,White,HR,Haryana
+vehicle_20260819-091315.jpg,JH01ES2902,True,0.9945,coupe,brown,Unknown,JH,Jharkhand
+vehicle_20260819-091328.jpg,CH01CA4111,True,0.9994,suv,brown,Unknown,CH,Chandigarh
+vehicle_20260819-091410.jpg,HR26GF1628,True,0.9937,suv,brown,Unknown,HR,Haryana
+vehicle_20260819-091501.jpg,HR10AA1895,True,0.9995,van,silver,White,HR,Haryana
+vehicle_20260819-091616.jpg,HR98L1443,True,0.9975,sedan,silver,White,HR,Haryana
+vehicle_20260819-091643.jpg,HR48E9780,True,0.9988,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-092021.jpg,HR10AA1895,True,0.9796,sedan,silver,White,HR,Haryana
+vehicle_20260819-092317.jpg,HR26FD1219,True,0.997,coupe,grey,White,HR,Haryana
+vehicle_20260819-092359.jpg,HR98L5619,True,0.9995,pickup,grey,Unknown,HR,Haryana
+vehicle_20260819-092443.jpg,DL8EV7005,True,0.987,sedan,white,Unknown,DL,Delhi
+vehicle_20260819-092719.jpg,HR48E9780,True,0.9917,coupe,black,Unknown,HR,Haryana
+vehicle_20260819-092803.jpg,DL9CBD7781,True,0.9999,pickup,black,Unknown,DL,Delhi
+vehicle_20260819-092950.jpg,,False,0.0,pickup,brown,Unknown,,
+vehicle_20260819-093029.jpg,DL12CV5224,True,0.9889,coupe,grey,White,DL,Delhi
+vehicle_20260819-093126.jpg,DL8CBL6960,True,0.9936,sedan,black,Unknown,DL,Delhi
+vehicle_20260819-093617.jpg,DL1CAC7239,True,0.9997,sedan,grey,Unknown,DL,Delhi
+vehicle_20260819-094109.jpg,DL8CBL6960,True,0.9839,sedan,black,Unknown,DL,Delhi
+vehicle_20260819-094120.jpg,HR26GA3302,True,0.9807,suv,grey,Unknown,HR,Haryana
+vehicle_20260819-094123.jpg,HR98L5619,True,0.9965,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-094251.jpg,HR98AC8649,True,0.9997,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-094406.jpg,HR98C1886,True,0.9993,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-094445.jpg,UK19B7191,True,0.9998,coupe,white,White,UK,Uttarakhand
+vehicle_20260819-094707.jpg,HR12AU7291,True,0.9997,pickup,white,White,HR,Haryana
+vehicle_20260819-094831.jpg,HR26CV3412,True,0.9996,sedan,blue,Unknown,HR,Haryana
+vehicle_20260819-094904.jpg,CH01CA4377,True,0.9998,sedan,black,Unknown,CH,Chandigarh
+vehicle_20260819-094920.jpg,DL1CAC7239,True,0.9968,coupe,grey,Unknown,DL,Delhi
+vehicle_20260819-095207.jpg,CH01CY6930,True,0.9999,van,white,Unknown,CH,Chandigarh
+vehicle_20260819-095212.jpg,RJ09CD2418,True,0.9997,van,blue,Unknown,RJ,Rajasthan
+vehicle_20260819-095219.jpg,HR12AU7291,True,0.9925,coupe,silver,White,HR,Haryana
+vehicle_20260819-095222.jpg,HR87S8833,True,0.9895,pickup,grey,Unknown,HR,Haryana
+vehicle_20260819-095305.jpg,UP14CU7183,True,0.9994,van,grey,Unknown,UP,Uttar Pradesh
+vehicle_20260819-095414.jpg,UP21CH2525,True,0.9996,pickup,black,Unknown,UP,Uttar Pradesh
+vehicle_20260819-095421.jpg,HR87Q2667,True,0.9994,sedan,grey,Unknown,HR,Haryana
+vehicle_20260819-095446.jpg,DL9CAW6856,True,0.9976,sedan,brown,Unknown,DL,Delhi
+vehicle_20260819-095454.jpg,HR26DT5514,True,0.9986,van,white,Unknown,HR,Haryana
+vehicle_20260819-095625.jpg,DD33AVA5333,True,0.9601,coupe,black,Unknown,DD,Dadra and Nagar Haveli and Daman and Diu
+vehicle_20260819-095807.jpg,UP15EJ9124,True,0.9969,coupe,grey,Unknown,UP,Uttar Pradesh
+vehicle_20260819-095818.jpg,UP16CR4122,True,0.9998,sedan,grey,White,UP,Uttar Pradesh
+vehicle_20260819-095946.jpg,HR51CP9332,True,0.9998,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-100054.jpg,HR98E0428,True,0.9907,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-100148.jpg,UP16EB8454,True,0.9997,coupe,white,White,UP,Uttar Pradesh
+vehicle_20260819-100210.jpg,RJ09CD2418,True,0.9713,coupe,black,Blue,RJ,Rajasthan
+vehicle_20260819-100439.jpg,HR26GA7003,True,0.9998,van,grey,Unknown,HR,Haryana
+vehicle_20260819-100536.jpg,HR55AV1155,True,0.9978,van,silver,Unknown,HR,Haryana
+vehicle_20260819-100556.jpg,HR98K8193,True,0.9997,Unknown,blue,Unknown,HR,Haryana
+vehicle_20260819-100617.jpg,HR31T2355,True,0.9987,coupe,white,Unknown,HR,Haryana
+vehicle_20260819-100736.jpg,HR98AB9308,True,0.9997,coupe,silver,Unknown,HR,Haryana
+vehicle_20260819-100832.jpg,DL1CAF7621,True,0.9977,pickup,grey,Unknown,DL,Delhi
+vehicle_20260819-100845.jpg,HR98C1886,True,0.9922,coupe,black,White,HR,Haryana
+vehicle_20260819-100858.jpg,HR98W9235,True,0.9996,sedan,red,Green,HR,Haryana
+vehicle_20260819-100908.jpg,PB10HB0202,True,0.9996,sedan,blue,Blue,PB,Punjab
+vehicle_20260819-100917.jpg,DL9CAL7170,True,0.9988,sedan,blue,Blue,DL,Delhi
+vehicle_20260819-100924.jpg,UP21CH2525,True,0.9986,pickup,black,Unknown,UP,Uttar Pradesh
+vehicle_20260819-100942.jpg,HR98AA2644,True,0.9998,sedan,silver,White,HR,Haryana
+vehicle_20260819-101052.jpg,HR55AV1155,True,0.9651,sedan,grey,White,HR,Haryana
+vehicle_20260819-101151.jpg,HR26CV3412,True,0.9928,coupe,blue,Blue,HR,Haryana
+vehicle_20260819-101327.jpg,HR26GI7003,True,0.976,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-101557.jpg,HR05BH8665,True,0.999,coupe,red,Unknown,HR,Haryana
+vehicle_20260819-101750.jpg,HR98E4391,True,0.9962,sedan,grey,White,HR,Haryana
+vehicle_20260819-101825.jpg,HR55AV1751,True,0.979,coupe,silver,White,HR,Haryana
+vehicle_20260819-101858.jpg,DL12CY2620,True,0.9999,sedan,black,Unknown,DL,Delhi
+vehicle_20260819-101911.jpg,HR01AY5529,True,0.9941,sedan,grey,Unknown,HR,Haryana
+vehicle_20260819-101940.jpg,HR38AF8598,True,0.9932,coupe,silver,Unknown,HR,Haryana
+vehicle_20260819-102041.jpg,HR98N5506,True,0.9997,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-102110.jpg,DL3CCP8247,True,0.9953,sedan,brown,White,DL,Delhi
+vehicle_20260819-102129.jpg,DL9CAL7170,True,0.9969,coupe,blue,Blue,DL,Delhi
+vehicle_20260819-102149.jpg,HR26EE5610,True,0.9994,sedan,green,Unknown,HR,Haryana
+vehicle_20260819-102235.jpg,HR98AA2644,True,0.9775,sedan,grey,White,HR,Haryana
+vehicle_20260819-102247.jpg,HR01AY5529,True,0.9951,coupe,grey,White,HR,Haryana
+vehicle_20260819-102258.jpg,HP26EE5610,True,0.9363,sedan,grey,Blue,HP,Himachal Pradesh
+vehicle_20260819-102510.jpg,HR26DD7881,True,0.9768,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-102557.jpg,HR98Z1668,True,0.9989,van,black,Unknown,HR,Haryana
+vehicle_20260819-103005.jpg,HR26DD7881,True,0.9969,suv,brown,Unknown,HR,Haryana
+vehicle_20260819-103015.jpg,HR98AB9980,True,0.9992,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-103326.jpg,TG082HR6236BY,False,0.9226,pickup,black,Unknown,TG,Telangana
+vehicle_20260819-103450.jpg,HR98K0654,True,0.9997,suv,black,Unknown,HR,Haryana
+vehicle_20260819-103510.jpg,HR98V2103,True,0.9938,sedan,brown,Unknown,HR,Haryana
+vehicle_20260819-103537.jpg,HR26CZ1860,True,0.9995,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-103658.jpg,UP16CL3561,True,0.9996,suv,silver,White,UP,Uttar Pradesh
+vehicle_20260819-103712.jpg,UK06AD5118,True,0.9999,coupe,grey,Unknown,UK,Uttarakhand
+vehicle_20260819-103758.jpg,HR55AY7526,True,0.9967,coupe,white,White,HR,Haryana
+vehicle_20260819-103850.jpg,DL8EV3319,True,0.9929,coupe,grey,Blue,DL,Delhi
+vehicle_20260819-103923.jpg,RJ45CK9648,True,0.9997,van,brown,Unknown,RJ,Rajasthan
+vehicle_20260819-103934.jpg,HR98Z1668,True,0.9976,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-103952.jpg,UK06AD5118,True,0.9944,coupe,grey,Unknown,UK,Uttarakhand
+vehicle_20260819-104039.jpg,UP16DH8267,True,0.9998,coupe,black,Unknown,UP,Uttar Pradesh
+vehicle_20260819-104318.jpg,RJ45CK9648,True,0.9961,sedan,black,Unknown,RJ,Rajasthan
+vehicle_20260819-104411.jpg,DL8EV3319,True,0.9818,pickup,grey,Unknown,DL,Delhi
+vehicle_20260819-104557.jpg,HR98Q8093,True,0.9989,sedan,grey,White,HR,Haryana
+vehicle_20260819-104651.jpg,HR98R5357,True,0.9995,sedan,white,Unknown,HR,Haryana
+vehicle_20260819-104752.jpg,HR98F4442,True,0.9948,suv,red,Unknown,HR,Haryana
+vehicle_20260819-104802.jpg,HR26GA0245,True,0.9995,pickup,black,White,HR,Haryana
+vehicle_20260819-104813.jpg,HR98F0844,True,0.9995,sedan,grey,Black,HR,Haryana
+vehicle_20260819-104837.jpg,HR26EQ7736,True,0.9922,Unknown,white,Unknown,HR,Haryana
+vehicle_20260819-104846.jpg,HR26FX5786,True,0.9955,suv,black,Unknown,HR,Haryana
+vehicle_20260819-105013.jpg,HR9B4127,True,0.9967,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-105020.jpg,HR26DE5438,True,0.9907,suv,silver,White,HR,Haryana
+vehicle_20260819-105110.jpg,23BH5543K,True,0.9997,sedan,grey,Unknown,BH,Bharat Series
+vehicle_20260819-105126.jpg,HR26FU3562,True,0.9814,coupe,black,Unknown,HR,Haryana
+vehicle_20260819-105140.jpg,HR98Q8093,True,0.9949,coupe,silver,White,HR,Haryana
+vehicle_20260819-105258.jpg,HR98T1929,True,0.9997,sedan,grey,Blue,HR,Haryana
+vehicle_20260819-105407.jpg,HR98C1809,True,0.9962,van,black,Unknown,HR,Haryana
+vehicle_20260819-105412.jpg,HR98D6558,True,0.9989,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-105519.jpg,HR51CV1678,True,0.9997,van,black,Unknown,HR,Haryana
+vehicle_20260819-105524.jpg,HR98J8415,True,0.9997,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-105535.jpg,HR26EQ7736,True,0.9949,sedan,silver,Unknown,HR,Haryana
+vehicle_20260819-105549.jpg,HR55BB3722,True,0.9964,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-105659.jpg,HR55BB3722,True,0.9945,suv,black,Unknown,HR,Haryana
+vehicle_20260819-105818.jpg,UP14FR3002,True,0.9989,sedan,black,Unknown,UP,Uttar Pradesh
+vehicle_20260819-105945.jpg,HR51CP4886,True,0.9977,pickup,black,Unknown,HR,Haryana
+vehicle_20260819-110033.jpg,UP60CT4475,True,0.9991,coupe,white,Unknown,UP,Uttar Pradesh
+vehicle_20260819-110250.jpg,HR98D6558,True,0.9897,sedan,grey,Blue,HR,Haryana
+vehicle_20260819-110402.jpg,HR98K2968,True,0.9839,sedan,black,White,HR,Haryana
+vehicle_20260819-110619.jpg,UK19B7191,True,0.9707,coupe,silver,White,UK,Uttarakhand
+vehicle_20260819-110728.jpg,,False,0.0,pickup,black,Unknown,,
+vehicle_20260819-110804.jpg,HR26CM6248,True,0.9822,sedan,red,Unknown,HR,Haryana
+vehicle_20260819-110942.jpg,DL4CAZ3376,True,0.9994,sedan,grey,Unknown,DL,Delhi
+vehicle_20260819-110943.jpg,DL4CAZ3376,True,0.982,sedan,silver,Unknown,DL,Delhi
+vehicle_20260819-111037.jpg,HR26FN1430,True,0.9998,van,black,Unknown,HR,Haryana
+vehicle_20260819-111256.jpg,HR98X1888,True,0.9972,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-111338.jpg,DL10CP9683,True,0.9998,sedan,tan,Unknown,DL,Delhi
+vehicle_20260819-111521.jpg,DL9EVA1811,True,0.9871,van,blue,White,DL,Delhi
+vehicle_20260819-111613.jpg,DL4CAZ3376,True,0.976,sedan,silver,White,DL,Delhi
+vehicle_20260819-111641.jpg,HR26EK0558,True,0.9994,suv,black,White,HR,Haryana
+vehicle_20260819-111642.jpg,HR26EK0558,True,0.9994,sedan,grey,Unknown,HR,Haryana
+vehicle_20260819-111813.jpg,HR26CM6248,True,0.9868,coupe,red,Red,HR,Haryana
+vehicle_20260819-111818.jpg,HR26FP5210,True,0.9652,sedan,black,White,HR,Haryana
+vehicle_20260819-111833.jpg,HR26EK0558,True,0.9955,sedan,grey,White,HR,Haryana
+vehicle_20260819-112134.jpg,DL3CCL1005,True,0.9989,pickup,silver,White,DL,Delhi
+vehicle_20260819-112135.jpg,DL3CCL1005,True,0.9995,coupe,silver,White,DL,Delhi
+vehicle_20260819-112230.jpg,TN07CY0459,True,0.9862,sedan,silver,White,TN,Tamil Nadu
+vehicle_20260819-112350.jpg,HR98V2103,True,0.9629,pickup,brown,Unknown,HR,Haryana
+vehicle_20260819-112421.jpg,HR87K4122,True,0.9993,suv,blue,Unknown,HR,Haryana
+vehicle_20260819-112428.jpg,DL3CDB3267,True,0.9986,sedan,grey,Unknown,DL,Delhi
+vehicle_20260819-112728.jpg,DL9CBK8207,True,0.9765,coupe,grey,Green,DL,Delhi
+vehicle_20260819-112829.jpg,UP14HF4713,True,0.9923,coupe,black,Unknown,UP,Uttar Pradesh
+vehicle_20260819-113214.jpg,HR55AO6878,True,0.9987,van,white,White,HR,Haryana
+vehicle_20260819-113303.jpg,HR26CZ1860,True,0.9886,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-113620.jpg,HR10AD0102,True,0.9995,van,grey,Unknown,HR,Haryana
+vehicle_20260819-114253.jpg,,False,0.0,pickup,black,Unknown,,
+vehicle_20260819-114418.jpg,HR87Q2667,True,0.9985,sedan,black,Unknown,HR,Haryana
+vehicle_20260819-114529.jpg,UP75CT4649,True,0.9751,coupe,grey,Unknown,UP,Uttar Pradesh
+vehicle_20260819-114549.jpg,UP14GN0066,True,0.9994,van,silver,White,UP,Uttar Pradesh
+vehicle_20260819-114551.jpg,UP14GN0066,True,0.9953,van,silver,White,UP,Uttar Pradesh
+vehicle_20260819-114717.jpg,UP75CT4649,True,0.9698,sedan,grey,White,UP,Uttar Pradesh
+vehicle_20260819-114826.jpg,,False,0.0,sedan,black,Unknown,,
+vehicle_20260819-115230.jpg,DL9CAR3555,True,0.9598,coupe,white,White,DL,Delhi
+vehicle_20260819-115350.jpg,HR98AB9308,True,0.9921,coupe,grey,White,HR,Haryana
+vehicle_20260819-115829.jpg,UP15EJ9124,True,0.9942,pickup,grey,Unknown,UP,Uttar Pradesh
+vehicle_20260819-115916.jpg,UP14HF4713,True,0.9994,coupe,green,Unknown,UP,Uttar Pradesh
+vehicle_20260819-120046.jpg,HR26CZ3990,True,0.9997,suv,grey,Unknown,HR,Haryana
+vehicle_20260819-120048.jpg,HR26CZ3990,True,0.9998,suv,grey,Unknown,HR,Haryana
+vehicle_20260819-120049.jpg,HR26CZ3990,True,0.9979,van,brown,Unknown,HR,Haryana
+vehicle_20260819-120058.jpg,DL3CCX2099,True,0.9988,sedan,silver,White,DL,Delhi
+vehicle_20260819-120334.jpg,GJ01KR7310,True,0.9989,sedan,white,White,GJ,Gujarat
+vehicle_20260819-120336.jpg,GJ01KR7310,True,0.9996,van,white,White,GJ,Gujarat
+vehicle_20260819-120337.jpg,GJ01KR7310,True,0.9997,van,white,White,GJ,Gujarat
+vehicle_20260819-120707.jpg,OD33AV4533,True,0.9156,suv,grey,Unknown,OD,Odisha
+vehicle_20260819-120715.jpg,HR98AC8649,True,0.9989,sedan,black,White,HR,Haryana
+vehicle_20260819-120753.jpg,DL10CX6873,True,0.9943,coupe,grey,Blue,DL,Delhi
+vehicle_20260819-120945.jpg,HR72K5932,True,0.9993,sedan,grey,Unknown,HR,Haryana
+vehicle_20260819-121002.jpg,HR05BH8665,True,0.9996,sedan,red,Red,HR,Haryana
+vehicle_20260819-121012.jpg,HR26EC5866,True,0.9538,coupe,grey,White,HR,Haryana

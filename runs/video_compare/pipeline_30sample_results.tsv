@@ -1,0 +1,31 @@
+idx	time_sec	plate_detected_model	plate_text_ocr	plate_confidence_ocr	plate_text_valid_indian_regex	vehicle_type_model	vehicle_color_model	plate_color_model	crop_path
+1	0	False		0.0	False	sedan	white	Unknown	
+2	20	True	GV19537	0.969	False	sedan	white	Red	runs\video_compare\02_020s_plate.jpg
+3	40	True	JQS5683	0.953	False	coupe	white	Unknown	runs\video_compare\03_040s_plate.jpg
+4	60	False		0.0	False	suv	silver	Unknown	
+5	80	True	NAP9971	0.999	False	coupe	red	White	runs\video_compare\05_080s_plate.jpg
+6	100	True	J0D9B20	0.982	False	Unknown	Unknown	White	runs\video_compare\06_100s_plate.jpg
+7	120	False		0.0	False	Unknown	Unknown	Unknown	
+8	140	False		0.0	False	Unknown	Unknown	Unknown	
+9	160	True	KQCQBD032	0.879	False	suv	blue	White	runs\video_compare\09_160s_plate.jpg
+10	180	True	KY05E16	0.969	False	sedan	red	Red	runs\video_compare\10_180s_plate.jpg
+11	200	True	KPCFJ310C6	0.652	False	suv	grey	Unknown	runs\video_compare\11_200s_plate.jpg
+12	220	False		0.0	False	pickup	white	Unknown	
+13	240	False		0.0	False	sedan	silver	Unknown	
+14	260	False		0.0	False	Unknown	Unknown	Unknown	
+15	280	True	D154684	0.847	False	suv	silver	White	runs\video_compare\15_280s_plate.jpg
+16	300	True	178930	0.723	False	van	silver	White	runs\video_compare\16_300s_plate.jpg
+17	320	True	GYX2129	0.986	False	pickup	yellow	White	runs\video_compare\17_320s_plate.jpg
+18	340	False		0.0	False	Unknown	Unknown	Unknown	
+19	360	False		0.0	False	van	beige	Unknown	
+20	380	False		0.0	False	sedan	black	Unknown	
+21	400	False		0.0	False	coupe	tan	Unknown	
+22	420	True	F0H0369	0.873	False	pickup	beige	White	runs\video_compare\22_420s_plate.jpg
+23	440	True	KB1790830	0.814	False	sedan	black	Black	runs\video_compare\23_440s_plate.jpg
+24	460	True	KLB0CG7B80	0.687	False	suv	brown	White	runs\video_compare\24_460s_plate.jpg
+25	480	True	CAA7277	1.0	False	pickup	green	White	runs\video_compare\25_480s_plate.jpg
+26	500	False		0.0	False	Unknown	Unknown	Unknown	
+27	520	False		0.0	False	pickup	grey	Unknown	
+28	540	False		0.0	False	sedan	tan	Unknown	
+29	560	True	LPYN0601	0.779	False	Unknown	Unknown	Unknown	runs\video_compare\29_560s_plate.jpg
+30	580	True	RY1471	0.997	False	suv	silver	White	runs\video_compare\30_580s_plate.jpg
