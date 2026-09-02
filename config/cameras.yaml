@@ -1,0 +1,207 @@
+# Physical camera layout for ANPR processing.
+#
+# Site layout: three buildings CCS1, CCS2, CCS3, connected by two shared
+# ramps. Each ramp goes down through Basement 1 first, then deeper into
+# Basement 2. A vehicle's path down a ramp is:
+#
+#   Outside -> [Ramp Entry, 2 cams]      -> now inside Basement 1
+#           -> [Basement 2 Entry, 2 cams] -> now inside Basement 2
+#
+# and coming back out, the same ramp in reverse:
+#
+#   Basement 2 -> [Basement 2 Exit, 1 cam] -> back in Basement 1
+#              -> [Ramp Exit, 1 cam]       -> fully outside the site
+#
+# event_type meaning (used by the backend to track where a vehicle
+# currently is, see anpr-multicam/routes/vehicle_routes.py):
+#   entry          = vehicle enters the ramp from outside -> now in Basement 1
+#   basement_entry = vehicle moves deeper, Basement 1 -> Basement 2
+#   basement_exit  = vehicle moves back up, Basement 2 -> Basement 1 (still on-site)
+#   exit           = vehicle leaves Basement 1 to outside -> fully exited the site
+#
+# camera_group is important for paired cameras. If two cameras watch the same
+# point, give both the same camera_group. The backend keeps the higher OCR
+# confidence event within a short merge window.
+#
+# trigger_zone (optional, per camera): a "virtual tripwire" polygon marking
+# the patch of the lane a vehicle must actually be in for this camera to fire
+# -- not the whole field of view (which also catches people walking past, an
+# adjacent lane, background flicker). Points are [x, y] fractions of frame
+# width/height (0.0-1.0, top-left origin), so it keeps working if
+# snapshot_resolution ever changes. Omit it (or leave the list empty/under 3
+# points) and the camera behaves exactly as before -- whole-frame checking.
+#
+# To calibrate one: save a snapshot from that camera (e.g. via
+# captured_vehicles/), open it in any image viewer that shows pixel
+# coordinates, pick 4ish points that trace the lane area where a plate is
+# reliably visible, and divide each by the image width/height to get 0..1
+# fractions. Example for a camera framed so the lane runs across the middle
+# third of the image:
+#   trigger_zone:
+#     - [0.10, 0.45]
+#     - [0.90, 0.45]
+#     - [0.95, 0.75]
+#     - [0.05, 0.75]
+cameras:
+  # Local video test source. This appears in the frontend like a camera.
+  # Set process_enabled=false if you only want to preview the video without posting events.
+  - name: test_video_01
+    source_type: video
+    ip: local_video
+    video_path: ../test_videos/testplate.mp4
+    video_loop: false
+    video_realtime: true
+    process_every_n_frames: 5
+    event_type: entry
+    lane_type: entry
+    ramp_name: Test Ramp
+    basement_name: ""
+    lane_name: Local Video Test
+    camera_group: test_video_entry
+    camera_role: video
+    enabled: true
+    process_enabled: true
+
+  # ===================== CCS1 - CCS2 Ramp =====================
+
+  # Ramp entry (outside -> Basement 1)
+  - name: cam01
+    ip: 192.168.1.90
+    event_type: entry
+    lane_type: entry
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 1
+    lane_name: CCS1-CCS2 Ramp Entry
+    camera_group: ccs1_ccs2_entry
+    camera_role: left
+    enabled: false
+
+  - name: cam02
+    ip: 192.168.1.91
+    event_type: entry
+    lane_type: entry
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 1
+    lane_name: CCS1-CCS2 Ramp Entry
+    camera_group: ccs1_ccs2_entry
+    camera_role: right
+    enabled: false
+
+  # Basement 2 entry (Basement 1 -> Basement 2)
+  - name: cam03
+    ip: 192.168.1.92
+    event_type: basement_entry
+    lane_type: entry
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 2
+    lane_name: CCS1-CCS2 Basement 2 Entry
+    camera_group: ccs1_ccs2_basement2_entry
+    camera_role: left
+    enabled: false
+
+  - name: cam04
+    ip: 192.168.1.93
+    event_type: basement_entry
+    lane_type: entry
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 2
+    lane_name: CCS1-CCS2 Basement 2 Entry
+    camera_group: ccs1_ccs2_basement2_entry
+    camera_role: right
+    enabled: false
+
+  # Basement 2 exit (Basement 2 -> Basement 1, still on-site)
+  - name: cam05
+    ip: 192.168.1.94
+    event_type: basement_exit
+    lane_type: exit
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 1
+    lane_name: CCS1-CCS2 Basement 2 Exit
+    camera_group: ccs1_ccs2_basement2_exit
+    camera_role: main
+    enabled: false
+
+  # Ramp exit (Basement 1 -> outside, fully exited)
+  - name: cam06
+    ip: 192.168.1.95
+    event_type: exit
+    lane_type: exit
+    ramp_name: CCS1-CCS2 Ramp
+    basement_name: Basement 1
+    lane_name: CCS1-CCS2 Ramp Exit
+    camera_group: ccs1_ccs2_exit
+    camera_role: main
+    enabled: false
+
+  # ===================== CCS2 - CCS3 Ramp =====================
+
+  # Ramp entry (outside -> Basement 1)
+  - name: cam07
+    ip: 192.168.1.96
+    event_type: entry
+    lane_type: entry
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 1
+    lane_name: CCS2-CCS3 Ramp Entry
+    camera_group: ccs2_ccs3_entry
+    camera_role: left
+    enabled: false
+
+  - name: cam08
+    ip: 192.168.1.97
+    event_type: entry
+    lane_type: entry
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 1
+    lane_name: CCS2-CCS3 Ramp Entry
+    camera_group: ccs2_ccs3_entry
+    camera_role: right
+    enabled: false
+
+  # Basement 2 entry (Basement 1 -> Basement 2)
+  - name: cam09
+    ip: 192.168.1.98
+    event_type: basement_entry
+    lane_type: entry
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 2
+    lane_name: CCS2-CCS3 Basement 2 Entry
+    camera_group: ccs2_ccs3_basement2_entry
+    camera_role: left
+    enabled: false
+
+  - name: cam10
+    ip: 192.168.1.99
+    event_type: basement_entry
+    lane_type: entry
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 2
+    lane_name: CCS2-CCS3 Basement 2 Entry
+    camera_group: ccs2_ccs3_basement2_entry
+    camera_role: right
+    enabled: false
+
+  # Basement 2 exit (Basement 2 -> Basement 1, still on-site)
+  - name: cam11
+    ip: 192.168.1.100
+    event_type: basement_exit
+    lane_type: exit
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 1
+    lane_name: CCS2-CCS3 Basement 2 Exit
+    camera_group: ccs2_ccs3_basement2_exit
+    camera_role: main
+    enabled: false
+
+  # Ramp exit (Basement 1 -> outside, fully exited)
+  - name: cam12
+    ip: 192.168.1.101
+    event_type: exit
+    lane_type: exit
+    ramp_name: CCS2-CCS3 Ramp
+    basement_name: Basement 1
+    lane_name: CCS2-CCS3 Ramp Exit
+    camera_group: ccs2_ccs3_exit
+    camera_role: main
+    enabled: false

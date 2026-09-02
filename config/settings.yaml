@@ -1,0 +1,137 @@
+service:
+  host: 0.0.0.0
+  port: 5001
+
+runtime:
+  opencv_threads: 1
+  paddle_cpu_threads: 2
+  torch_threads: 2
+  torch_interop_threads: 1
+  # Max number of camera worker threads allowed to run the heavy CPU models
+  # (plate detector, OCR, vehicle color/type) at the same time. With 12
+  # cameras on an 8-core CPU box, letting all of them infer simultaneously
+  # oversubscribes the CPU and shows up as growing lag. Raise this once
+  # running on a GPU.
+  max_concurrent_inference: 3
+
+vehicle_color:
+  detector_model_path: weights/vehicle_detector.pt
+  # Generic COCO segmentation model (car/truck/bus/motorcycle masks) used to
+  # isolate vehicle-body pixels for HSV-based colour naming -- see
+  # colour_detection.py, which this replaces the old color_classifier.pt with.
+  segmentation_model_path: weights/yolo11n-seg.pt
+  type_classifier_model_path: weights/vehicle_type.pt
+  confidence: 0.5
+  device: cpu   # "cpu" or "0" for first CUDA GPU
+
+vehicle_trigger:
+  enabled: true
+  confidence: 0.25
+  min_area_ratio: 0.01
+  hold_seconds: 1.5
+  no_vehicle_log_interval_seconds: 10
+  # Without a physical presence sensor (loop/IR beam), this is what keeps the
+  # heavy AI pipeline off an empty lane: a plain pixel-diff check runs first,
+  # and only when something actually changed does the real (model-based)
+  # vehicle detector run. This is nearly free, so it's safe to poll the
+  # camera more often than the old 2s interval without adding CPU load.
+  motion_prefilter:
+    enabled: true
+    downscale_width: 320
+    min_change_ratio: 0.015
+    pixel_diff_threshold: 25
+
+plate_detector:
+  enabled: true
+  model_path: weights/best.pt
+  confidence: 0.50
+  padding_ratio: 0.50
+  classes:
+    - plate
+    - car_plate
+    - license_plate
+    - number_plate
+    - placa carro
+    - placa carro mercosul
+    - placa moto
+    - placa moto mercosul
+
+plate_color:
+  enabled: true
+
+plate_ocr:
+  enabled: true
+  model_dir: weights/rec_indian_plate_infer
+  char_dict_path: weights/en_dict.txt
+  min_confidence: 0.60
+  post_uncertain: true
+  post_unreadable: false
+  fallback_min_confidence: 0.60
+  sar_refine:
+    # Re-reads the single best crop the fast CTC multi-variant search already
+    # picked, using the SAR (attention) head from the same checkpoint --
+    # ~6-7x slower per call than CTC so it only runs once per vehicle, not
+    # per variant, but eliminates CTC's dropped/duplicated-character failure
+    # mode (98.81% vs 87.75% exact-match on a 253-image held-out set with
+    # zero cases where CTC beat it). See sar_refiner.py.
+    enabled: true
+    checkpoint_path: weights/indian_plate_rec_v2_sar_best_accuracy.pdparams
+  aggregation:
+    # Track up to track_max_frames candidate frames per vehicle (scored by
+    # plate visibility). The top window_size of those are OCR'd and their
+    # readings voted/averaged (select_aggregated_result) for higher-confidence
+    # plate_confidence than a single frame gives -- at the cost of a bit more
+    # latency than single-best-frame processing.
+    #
+    # window_size/min_candidates brought down from 5/3 to 3/2 (best-3,
+    # majority-of-2) to match how real ANPR burst-capture pipelines actually
+    # run -- a handful of frames voted, not many -- now that each of those
+    # frames is itself far more reliable (SAR refine + the trigger-zone
+    # ensuring capture starts at a well-framed moment) than it was when 5/3
+    # was chosen to compensate for single-frame noise. NOTE: unlike
+    # OCR_MAX_VARIANTS (validated on ocr_training/eval_ocr_accuracy.py's
+    # single-image held-out set), this aggregation step only exists across a
+    # live multi-frame vehicle track -- there's no offline multi-frame
+    # dataset to validate it against, so treat this as reasoned-but-unverified
+    # and watch real plate_confidence/plate_text_valid rates after deploying.
+    enabled: true
+    window_size: 3
+    min_candidates: 2
+    frame_delay_seconds: 0.10
+    track_max_frames: 8
+
+storage:
+  enabled: true
+  # Every accepted ANPR event saves two images locally, each bucketed into a
+  # per-day folder: the number-plate crop under plate_image_dir/<date>/ and
+  # the full camera frame (the whole vehicle) under vehicle_image_dir/<date>/.
+  plate_image_dir: captured_plates
+  vehicle_image_dir: captured_vehicles
+
+backend:
+  event_url: http://localhost:5003/api/anpr/events
+  event_timeout: 8
+  event_token: ""
+
+camera:
+  auto_start_workers: true
+  # Real credentials belong in the CAMERA_USERNAME/CAMERA_PASSWORD env vars
+  # (settings.py already prefers those) -- keep this file's defaults blank so
+  # nothing sensitive ends up committed to source control.
+  username: ""
+  password: ""
+  stream_path: /axis-cgi/mjpg/video.cgi
+  snapshot_path: /axis-cgi/jpg/image.cgi
+  # Requested directly from the Axis VAPIX snapshot endpoint so plate captures
+  # don't depend on whatever resolution/compression the camera defaults to.
+  # Leave resolution blank to use the camera's default.
+  snapshot_resolution: "1920x1080"
+  snapshot_compression: 10
+  # How often to poll each idle camera for a new snapshot. Safe to poll
+  # fairly often (was 2.0s) because the motion_prefilter above filters out
+  # unchanged frames with a cheap pixel diff before the real vehicle
+  # detector model ever runs - so a lower value here mainly costs a few
+  # extra small HTTP requests per camera, not extra AI/CPU load.
+  snapshot_interval_seconds: 0.75
+  snapshot_timeout_seconds: 6
+  duplicate_seconds: 45
